@@ -7,6 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="taotaocommon" />
+        <module name="taotaomanagermapper" />
+        <module name="taotaomanagerpojo" />
+        <module name="taotaomanagerservice" />
+        <module name="taotaomanagerweb" />
       </profile>
     </annotationProcessing>
   </component>
