@@ -6,892 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0638f5e4-d1ab-4d04-9aa4-aada684b7fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemserverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-tans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/css/taotao.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/changelog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/_content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/datagrid_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/expandable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/multiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/tools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/custom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/disabledate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/firstday.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combo/animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combo/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/combobox_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/combobox_data2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/customformat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/dynamicdata.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/multiline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/multiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/remotedata.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/remotejsonp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/datagrid_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/initvalue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/multiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/initvalue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/multiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/tree_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/aligncolumns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cacheeditor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cellediting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cellstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/clientpagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/columngroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/complextoolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/contextmenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/custompager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/formatcolumns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/frozencolumns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/frozenrows.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/mergecells.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/multisorting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowborder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowediting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/selection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/simpletoolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/transform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/dateformat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/restrict.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/sharedcalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/validate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/initvalue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/showseconds.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimespinner/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimespinner/clearicon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimespinner/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimespinner/format.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/complextoolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/toolbarbuttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/constrain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/snap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/accept.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/sort.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/easyloader/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/filebox/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/filebox/buttonalign.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/filebox/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/form_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/load.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/validateonsubmit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/_content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/addremove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/autoheight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/complex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/datagrid_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/full.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/nestedlayout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/nocollapsible.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/propertygrid_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/tree_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/iconalign.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/plain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/size.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/toggle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/customitem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/alignment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/interactive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/format.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/range.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/increment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/range.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/attaching.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/custombuttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/links.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/_content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/customtools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/loadcontent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/nestedpanel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/paneltools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/progressbar/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/progressbar/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/customcolumns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/groupformat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/propertygrid_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/resizable/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/formattip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/nonlinear.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/rule.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/vertical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/splitbutton/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/splitbutton/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/_content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/autoheight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/dropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/fixedwidth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/hover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/images/modem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/images/pda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/images/scanner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/images/tablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/nestedtabs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/striptools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabposition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabstools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tree_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/clearicon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/custom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/multiline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/size.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/range.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/_content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/_dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/customcontent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/customstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/toolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/tooltipdialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/contextmenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/dnd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/editable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/formatting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/lazyload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/lines.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/tree_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/tree_data2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/clientpagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/contextmenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/editable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/lines.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/customtooltip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/validateonblur.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/customtools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/inlinewindow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/modalwindow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/windowlayout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/easyloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/jquery.easyui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/licence_gpl.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-am.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-cz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-jp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-sv_SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combobox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combogrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combotree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datagrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datebox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datetimebox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datetimespinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.draggable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.droppable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.filebox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.linkbutton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.menubutton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.messager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.numberbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.numberspinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.progressbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.propertygrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.resizable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.searchbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.splitbutton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.textbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.timespinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.treegrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.validatebox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.window.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/easyloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.combobox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.datebox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.draggable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.droppable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.linkbutton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.progressbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.propertygrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.resizable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.window.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/combo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/combobox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/datagrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/datebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/easyui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/filebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/accordion_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/calendar_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/combo_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/datagrid_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/datebox_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/layout_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/linkbutton_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/menu_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/messager_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/pagination_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/panel_tools.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/searchbox_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/slider_handle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/spinner_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/tabs_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/tree_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/validatebox_warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/linkbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/menubutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/messager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/numberbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/progressbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/propertygrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/searchbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/splitbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/textbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/tree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/validatebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/black/window.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/combo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/combobox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/datagrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/datebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/easyui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/filebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/messager_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/panel_tools.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/slider_handle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/tree_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/linkbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/menubutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/messager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/numberbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/progressbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/propertygrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/searchbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/splitbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/textbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/tree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/validatebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/window.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/color.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/combo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/combobox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/datagrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/datebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/easyui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/filebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/accordion_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/calendar_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/combo_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/datagrid_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/datebox_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/layout_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/linkbutton_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/menu_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/messager_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/pagination_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/panel_tools.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/searchbox_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/slider_handle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/spinner_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/tabs_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/tree_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/validatebox_warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/linkbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/menubutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/messager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/numberbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/progressbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/propertygrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/searchbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/splitbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/textbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/tree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/validatebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/default/window.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/combo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/combobox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/datagrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/datebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/easyui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/filebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/accordion_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/calendar_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/combo_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/datagrid_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/datebox_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/layout_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/linkbutton_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/menu_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/messager_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/pagination_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/panel_tools.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/searchbox_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/slider_handle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/spinner_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/tabs_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/tree_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/validatebox_warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/linkbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/menubutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/messager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/numberbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/progressbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/propertygrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/searchbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/splitbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/textbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/tree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/validatebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/window.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/cancel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/cut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/edit_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/edit_remove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/filesave.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/filter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_clipart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_picture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_shapes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_smartart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/mini_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/mini_edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/mini_refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/no.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/pencil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/print.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/reload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/sum.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/tip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/combo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/combobox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/datagrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/datebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/easyui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/filebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/accordion_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/calendar_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/combo_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/datagrid_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/datebox_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/layout_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/linkbutton_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/menu_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/messager_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/pagination_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/panel_tools.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/searchbox_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/slider_handle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/spinner_arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/tabs_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/tree_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/validatebox_warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/linkbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/menubutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/messager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/numberbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/progressbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/propertygrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/searchbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/splitbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/textbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/tree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/validatebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/window.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor-all-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/anchor/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/baidumap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/clearhtml/clearhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/code/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/code/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/code/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/emoticons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/107.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/108.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/109.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/110.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/112.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/113.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/114.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/115.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/116.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/117.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/118.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/119.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/120.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/121.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/122.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/123.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/124.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/125.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/126.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/127.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/128.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/129.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/130.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/131.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/132.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/133.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/134.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/static.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/file-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/file-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/folder-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/folder-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/go-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/flash/flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/image/images/align_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/image/images/align_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/image/images/align_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/image/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/lineheight/lineheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/link/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/media/media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-zh_CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/preview/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/table/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/common/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/common/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/common/flash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/common/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/common/media.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/common/rm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/default/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/default/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/qq/editor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/qq/qq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/simple/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content-edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/file-upload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbContentCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbContentCategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbContentCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbContentCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbContentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbContentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbContentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbContentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemCatMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemCatMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemCatMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemCatMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemDescMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemDescMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemDescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemDescMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemParamItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemParamItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemParamItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemParamItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemParamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemParamMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbItemParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemParamMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbOrderItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbOrderItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbOrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbOrderItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbOrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbOrderShippingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbOrderShippingMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbOrderShippingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbOrderShippingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/taotao/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbContentCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbContentCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbContentCategoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbContentCategoryExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbContentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbContentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItemCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItemCatExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemCatExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItemDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemDesc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItemDescExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemDescExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItemParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItemParamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemParamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItemParamItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemParamItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbItemParamItemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemParamItemExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbOrderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbOrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbOrderItemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderItemExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbOrderShipping.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderShipping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbOrderShippingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbOrderShippingExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/pojo/TbUserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbUserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/logs/access_log.2018-11-10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
-    </list>
+    <list default="true" id="0638f5e4-d1ab-4d04-9aa4-aada684b7fc2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/taotao-common/target/" />
@@ -925,7 +40,7 @@
     <session id="-453911835">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
@@ -945,7 +60,7 @@
           <entry key="java" value="18" />
           <entry key="jsp" value="1" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="52" />
+          <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -955,7 +70,7 @@
           <entry key="JSP" value="1" />
           <entry key="Properties" value="3" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="52" />
+          <entry key="XML" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -982,17 +97,7 @@
     <favorites_list name="taotaoparent" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1105,55 +210,6 @@
               <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
               <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1309,7 +365,7 @@
       <workItem from="1542120892202" duration="56000" />
       <workItem from="1542120952853" duration="852000" />
       <workItem from="1542123771820" duration="757000" />
-      <workItem from="1542195330404" duration="6803000" />
+      <workItem from="1542195330404" duration="7695000" />
     </task>
     <task id="LOCAL-00001" summary="完善了项目的包目录架构">
       <created>1541428990004</created>
@@ -1322,7 +378,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20565000" />
+    <option name="totallyTimeSpent" value="21457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="262" y="38" width="1646" height="1002" extended-state="0" />
@@ -1337,7 +393,7 @@
       <window_info id="JavaEE:App" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49847096" visible="true" weight="1.0" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49847096" weight="0.35411766" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1345,7 +401,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19529411" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19529411" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50152904" side_tool="true" weight="0.3290398" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49924013" weight="0.35780886" />
@@ -1357,7 +413,7 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.32828283" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32828283" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1678,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../淘淘商城项目(有源码)/项目源码/taotao-manager/taotao-manager-mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
@@ -1699,10 +748,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../淘淘商城项目(有源码)/项目源码/taotao-manager/taotao-manager-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="171">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
