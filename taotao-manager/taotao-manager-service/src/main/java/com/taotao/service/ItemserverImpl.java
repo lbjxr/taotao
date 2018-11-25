@@ -1,6 +1,9 @@
 package com.taotao.service;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.taotao.mapper.TbItemMapper;
+import com.taotao.pojo.EUDataGridResult;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemExample;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,4 +41,31 @@ public class ItemserverImpl implements ItemService {
 
         return null;
     }
+
+    /**
+     * 商品列表
+     * @param page
+     * @param rows
+     * @return
+     */
+
+    @Override
+    public EUDataGridResult getItemByList(int page, int rows) {
+
+        TbItemExample example = new TbItemExample();
+
+        PageHelper.startPage(page, rows);
+
+        List<TbItem> list = itemMapper.selectByExample(example);
+
+        PageInfo<TbItem> pageInfo = new PageInfo<>(list);
+
+        EUDataGridResult result = new EUDataGridResult();
+
+        result.setRows(list);
+        result.setTotal(pageInfo.getTotal());
+
+        return result;
+    }
+
 }
