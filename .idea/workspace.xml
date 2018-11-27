@@ -7,19 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0638f5e4-d1ab-4d04-9aa4-aada684b7fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/taotao-common/src/main/java/com/taotao/pojo/EUTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemCatController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-common/target/taotao-parent.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/taotao-parent.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,11 +42,11 @@
     <session id="-453911835">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -67,7 +55,7 @@
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,7 +86,7 @@
           <entry key="java" value="1642" />
           <entry key="jsp" value="19" />
           <entry key="properties" value="24" />
-          <entry key="txt" value="72" />
+          <entry key="txt" value="101" />
           <entry key="xml" value="396" />
         </counts>
       </usages-collector>
@@ -106,7 +94,7 @@
         <counts>
           <entry key="JAVA" value="1642" />
           <entry key="JSP" value="19" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="PLAIN_TEXT" value="105" />
           <entry key="Properties" value="24" />
           <entry key="XML" value="396" />
         </counts>
@@ -117,91 +105,7 @@
     <favorites_list name="taotaoparent" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotao-common/src/main/java/com/taotao/pojo/EUTreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-637" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemCatController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="25" column="96" selection-start-line="25" selection-start-column="96" selection-end-line="25" selection-end-column="96" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -283,11 +187,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="215" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="219" />
     <option name="y" value="38" />
-    <option name="width" value="1689" />
-    <option name="height" value="998" />
+    <option name="width" value="1679" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -312,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,22 +318,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -606,7 +500,8 @@
       <workItem from="1542294934759" duration="1538000" />
       <workItem from="1543141364626" duration="8939000" />
       <workItem from="1543153083391" duration="350000" />
-      <workItem from="1543238486653" duration="2661000" />
+      <workItem from="1543238486653" duration="3187000" />
+      <workItem from="1543320597199" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="完善了项目的包目录架构">
       <created>1541428990004</created>
@@ -629,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543153279731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增商品类目树状结构数据查询。调整了pom中jar包版本">
+      <created>1543242725564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543242725564</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -650,13 +552,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37631000" />
+    <option name="totallyTimeSpent" value="38779000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="true" />
+    <frame x="219" y="38" width="1679" height="1000" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991274" visible="true" weight="0.19989282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991274" visible="true" weight="0.23261538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -666,7 +567,7 @@
       <window_info id="JavaEE:App" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49810606" visible="true" weight="0.31138393" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49810606" weight="0.31138393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955357" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -674,7 +575,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19343494" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19269103" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50189394" side_tool="true" weight="0.43058825" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49924013" weight="0.35780886" />
@@ -699,7 +600,8 @@
     <MESSAGE value="完善了项目的包目录架构" />
     <MESSAGE value="新增easyui数据结构对象。" />
     <MESSAGE value="新增商品列表分页查询功能。" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增商品列表分页查询功能。" />
+    <MESSAGE value="新增商品类目树状结构数据查询。调整了pom中jar包版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增商品类目树状结构数据查询。调整了pom中jar包版本" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbOrderItemMapper.java">
@@ -943,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,9 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,13 +872,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/taotao-common/src/main/java/com/taotao/pojo/EUTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        <state relative-caret-position="152">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -996,45 +902,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemCatController.java">
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="25" column="96" selection-start-line="25" selection-start-column="96" selection-end-line="25" selection-end-column="96" />
+        <state relative-caret-position="608">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-common/src/main/java/com/taotao/pojo/EUTreeNode.java">
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemCatController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="413">
+          <caret line="25" column="96" selection-start-line="25" selection-start-column="96" selection-end-line="25" selection-end-column="96" />
           <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-637" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
