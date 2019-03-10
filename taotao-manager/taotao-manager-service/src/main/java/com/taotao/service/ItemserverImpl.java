@@ -31,6 +31,7 @@ public class ItemserverImpl implements ItemService {
         TbItemExample example = new TbItemExample();
         //创建一个条件对象
         TbItemExample.Criteria criteria = example.createCriteria();
+        criteria.andIdEqualTo(itemid);
         List<TbItem> list = itemMapper.selectByExample(example);
 
         //判断返回结果
@@ -68,4 +69,21 @@ public class ItemserverImpl implements ItemService {
         return result;
     }
 
+    @Override
+    public List<TbItem> getItemByName(String name) {
+
+        TbItemExample example = new TbItemExample();
+
+        TbItemExample.Criteria criteria = example.createCriteria();
+        criteria.andTitleLike("%"+name+"%");
+        List<TbItem> list = itemMapper.selectByExample(example);
+
+        //判断是否为空
+        if(list != null && list.size() > 0){
+
+            return list;
+        }
+
+        return null;
+    }
 }
