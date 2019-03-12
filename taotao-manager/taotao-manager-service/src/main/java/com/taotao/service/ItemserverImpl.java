@@ -8,6 +8,7 @@ import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import sun.security.x509.EDIPartyName;
 
 import java.util.List;
 
@@ -53,21 +54,31 @@ public class ItemserverImpl implements ItemService {
     @Override
     public EUDataGridResult getItemByList(int page, int rows) {
 
-        TbItemExample example = new TbItemExample();
+        //查询商品列表
+        TbItemExample tbItemExample = new TbItemExample();
 
+        //设置分页信息
         PageHelper.startPage(page, rows);
 
-        List<TbItem> list = itemMapper.selectByExample(example);
+        //查询商品数据
+        List<TbItem> tbItemList = itemMapper.selectByExample(tbItemExample);
 
-        PageInfo<TbItem> pageInfo = new PageInfo<>(list);
-
+        //创建一个easyui数据对象
         EUDataGridResult result = new EUDataGridResult();
+        result.setRows(tbItemList);
 
-        result.setRows(list);
+        //获取商品总条数
+        PageInfo<TbItem> pageInfo = new PageInfo<>(tbItemList);
         result.setTotal(pageInfo.getTotal());
 
         return result;
     }
+
+    /**
+     * 根据商品名称模糊查询
+     * @param name
+     * @return
+     */
 
     @Override
     public List<TbItem> getItemByName(String name) {

@@ -18,6 +18,11 @@ public class ItemController {
     @Autowired
     private ItemService itemService;
 
+    /**
+     * 根据商品ID获取商品数据
+     * @param itemId
+     * @return
+     */
     @RequestMapping("/item/{itemId}")
     @ResponseBody
     public TbItem getItemById(@PathVariable Long itemId){
@@ -27,15 +32,25 @@ public class ItemController {
         return item;
     }
 
+    /**
+     * 获取商品列表，由于展示
+     * @param page
+     * @param rows
+     * @return
+     */
     @RequestMapping("/item/list")
     @ResponseBody
     public EUDataGridResult getItemList(Integer page, Integer rows){
 
         EUDataGridResult result = itemService.getItemByList(page, rows);
-
         return result;
     }
 
+    /**
+     * 根据商品名模糊查询商品
+     * @param name
+     * @return
+     */
     @RequestMapping("/item/show")
     @ResponseBody
     public List<TbItem> getItemByNmae(@RequestParam(value = "title") String name){
