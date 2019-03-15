@@ -55,8 +55,8 @@ public class ItemController {
     @ResponseBody
     public List<TbItem> getItemByNmae(@RequestParam(value = "title") String name){
         List<TbItem> item = itemService.getItemByName(name);
-        System.out.printf("\n=========方法被执行=============\n");
-        System.out.printf("item="+item.get(0).getTitle()+"\n");
+        System.out.print("\n=========方法被执行=============\n");
+        System.out.print("item=" + item.get(0).getTitle() + "\n");
         return item;
     }
 }

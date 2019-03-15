@@ -1,10 +1,11 @@
 package com.taotao.service;
 
+import com.taotao.pojo.EUTreeNode;
 import com.taotao.pojo.TbItemCat;
 
 import java.util.List;
 
 public interface ItemCatService {
 
-    List<TbItemCat> getCatList(long parentId);
+    List<EUTreeNode> getCatList(long parentId);
 }

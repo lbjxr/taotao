@@ -32,20 +32,9 @@ public class ItemCatController {
    //如果id为null时使用默认值，也就是parentid为0的分类列表
    public List categoryList(@RequestParam(value="id",defaultValue = "0") Long parentid) throws Exception{
 
-       List catList = new ArrayList();
+       //查询数据库，根据父类id查询
+       List<EUTreeNode> treeNodeList = itemCatService.getCatList(parentid);
 
-       //查询数据库
-       List<TbItemCat> tbItemList = itemCatService.getCatList(parentid);
-       for(TbItemCat tbItemCat : tbItemList){
-           Map node = new HashMap<>();
-
-           node.put("id", tbItemCat.getId());
-           node.put("text",tbItemCat.getName());
-           //如果是父节点state设置成关闭状态，如果是子节点设置成open状态
-           node.put("state", tbItemCat.getIsParent() ? "closed" : "open");
-           catList.add(node);
-       }
-
-       return catList;
+       return treeNodeList;
    }
 }

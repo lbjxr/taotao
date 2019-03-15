@@ -18,18 +18,18 @@ import java.util.Map;
 public class PictureServiceImpl implements PictureService {
 
     //加载ftp参数
-    @Value("$(FTP_ADDRESS)")
+    @Value("${FTP_ADDRESS}")
     private String FTP_ADDRESS;
-    @Value("$(FTP_PORT)")
+    @Value("${FTP_PORT}")
     private Integer FTP_PORT;
-    @Value("$(FTP_USERNAME)")
+    @Value("${FTP_USERNAME}")
     private String FTP_USERNAME;
-    @Value("$(FTP_PASSWORD)")
+    @Value("${FTP_PASSWORD}")
     private String FTP_PASSWORD;
-    @Value("$(FTP_BASE_PATH)")
+    @Value("${FTP_BASE_PATH}")
     private String FTP_BASE_PATH;
-    @Value("$(IMAGES_BASE_URL)")
-    private String IMAGES_BASE_URL;
+    @Value("${IMAGE_BASE_URL}")
+    private String IMAGE_BASE_URL;
 
     @Override
     public Map uploadPicture(MultipartFile uploadFile) {
@@ -57,7 +57,7 @@ public class PictureServiceImpl implements PictureService {
             }
 
             resultMap.put("error", 0);
-            resultMap.put("url", IMAGES_BASE_URL + imagePath + "/" + newName);
+            resultMap.put("url", IMAGE_BASE_URL + imagePath + "/" + newName);
             return resultMap;
         } catch (IOException e) {
             resultMap.put("error", 1);
