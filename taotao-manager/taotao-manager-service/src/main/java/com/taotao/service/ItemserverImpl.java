@@ -6,10 +6,13 @@ import com.taotao.mapper.TbItemMapper;
 import com.taotao.pojo.EUDataGridResult;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemExample;
+import com.taotao.utils.IDUtils;
+import com.taotao.utils.TaotaoResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import sun.security.x509.EDIPartyName;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -40,7 +43,6 @@ public class ItemserverImpl implements ItemService {
             TbItem item = list.get(0);
             return item;
         }
-
         return null;
     }
 
@@ -91,10 +93,29 @@ public class ItemserverImpl implements ItemService {
 
         //判断是否为空
         if(list != null && list.size() > 0){
-
             return list;
         }
-
         return null;
+    }
+
+    /**
+     * 商品添加
+     * @param item
+     * @return
+     */
+    @Override
+    public TaotaoResult createItem(TbItem item) {
+
+        //补全item
+        //生成商品id
+        Long itemId = IDUtils.genItemId();
+        item.setId(itemId);
+        item.setStatus((byte) 1);
+        item.setCreated(new Date());
+        item.setUpdated(new Date());
+
+        //把商品信息插入数据表
+        itemMapper.insert(item);
+        return TaotaoResult.ok();
     }
 }
