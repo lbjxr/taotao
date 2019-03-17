@@ -2,15 +2,16 @@ package com.taotao.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.taotao.mapper.TbItemDescMapper;
 import com.taotao.mapper.TbItemMapper;
 import com.taotao.pojo.EUDataGridResult;
 import com.taotao.pojo.TbItem;
+import com.taotao.pojo.TbItemDesc;
 import com.taotao.pojo.TbItemExample;
 import com.taotao.utils.IDUtils;
 import com.taotao.utils.TaotaoResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import sun.security.x509.EDIPartyName;
 
 import java.util.Date;
 import java.util.List;
@@ -24,6 +25,9 @@ public class ItemserverImpl implements ItemService {
 
     @Autowired
     private TbItemMapper itemMapper;
+
+    @Autowired
+    private TbItemDescMapper itemDescMapper;
 
     @Override
     public TbItem getItemById(long itemid) {
@@ -104,7 +108,7 @@ public class ItemserverImpl implements ItemService {
      * @return
      */
     @Override
-    public TaotaoResult createItem(TbItem item) {
+    public TaotaoResult createItem(TbItem item, String desc) throws Exception{
 
         //补全item
         //生成商品id
@@ -116,6 +120,31 @@ public class ItemserverImpl implements ItemService {
 
         //把商品信息插入数据表
         itemMapper.insert(item);
+
+        //保证事务，调用insertItemDesc,失败后抛出异常
+        TaotaoResult result = insertItemDesc(itemId, desc);
+        if (200 != result.getStatus()){
+            throw new Exception();
+        }
         return TaotaoResult.ok();
+    }
+
+    /**
+     * 添加商品描述
+     * @param itemID
+     * @param desc
+     * @return
+     */
+    private TaotaoResult insertItemDesc(Long itemID, String desc){
+        TbItemDesc itemDesc = new TbItemDesc();
+
+        itemDesc.setItemId(itemID);
+        itemDesc.setItemDesc(desc);
+        itemDesc.setCreated(new Date());
+        itemDesc.setUpdated(new Date());
+
+        itemDescMapper.insert(itemDesc);
+        return TaotaoResult.ok();
+
     }
 }

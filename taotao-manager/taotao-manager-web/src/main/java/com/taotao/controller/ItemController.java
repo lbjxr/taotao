@@ -65,8 +65,8 @@ public class ItemController {
      */
     @PostMapping(value = "/item/save")
     @ResponseBody
-    public TaotaoResult createItem(TbItem item){
-        TaotaoResult taotaoResult = itemService.createItem(item);
+    public TaotaoResult createItem(TbItem item, String desc) throws Exception {
+        TaotaoResult taotaoResult = itemService.createItem(item, desc);
         return taotaoResult;
     }
 }

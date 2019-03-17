@@ -14,6 +14,6 @@ public interface ItemService {
 
     List<TbItem> getItemByName(String name);
 
-    TaotaoResult createItem(TbItem item);
+    TaotaoResult createItem(TbItem item, String desc) throws Exception;
 
 }
