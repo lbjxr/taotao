@@ -1,11 +1,8 @@
 package com.taotao.utils;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.IOException;
 import java.util.List;
 
 /**
@@ -64,7 +61,6 @@ public class TaotaoResult {
     }
 
     public TaotaoResult() {
-
     }
 
     public static TaotaoResult build(Integer status, String msg, Object data){
@@ -76,7 +72,7 @@ public class TaotaoResult {
     }
 
     public static TaotaoResult ok(){
-        return new TaotaoResult();
+        return new TaotaoResult(null);
     }
 
     public static TaotaoResult build(Integer status, String msg){
@@ -147,4 +143,12 @@ public class TaotaoResult {
         }
     }
 
+    @Override
+    public String toString() {
+        return "TaotaoResult{" +
+                "status=" + status +
+                ", msg='" + msg + '\'' +
+                ", data=" + data +
+                '}';
+    }
 }
