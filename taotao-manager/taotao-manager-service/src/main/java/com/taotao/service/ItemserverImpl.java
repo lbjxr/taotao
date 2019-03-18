@@ -4,10 +4,8 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.mapper.TbItemDescMapper;
 import com.taotao.mapper.TbItemMapper;
-import com.taotao.pojo.EUDataGridResult;
-import com.taotao.pojo.TbItem;
-import com.taotao.pojo.TbItemDesc;
-import com.taotao.pojo.TbItemExample;
+import com.taotao.mapper.TbItemParamItemMapper;
+import com.taotao.pojo.*;
 import com.taotao.utils.IDUtils;
 import com.taotao.utils.TaotaoResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +26,9 @@ public class ItemserverImpl implements ItemService {
 
     @Autowired
     private TbItemDescMapper itemDescMapper;
+
+    @Autowired
+    private TbItemParamItemMapper itemParamItemMapper;
 
     @Override
     public TbItem getItemById(long itemid) {
@@ -108,7 +109,7 @@ public class ItemserverImpl implements ItemService {
      * @return
      */
     @Override
-    public TaotaoResult createItem(TbItem item, String desc) throws Exception{
+    public TaotaoResult createItem(TbItem item, String desc, String itemParams) throws Exception{
 
         //补全item
         //生成商品id
@@ -126,6 +127,10 @@ public class ItemserverImpl implements ItemService {
         if (200 != result.getStatus()){
             throw new Exception();
         }
+        //添加规格参数
+        result = insertItemParamItem(itemId, itemParams);
+        if (200 != result.getStatus()){ throw new Exception(); }
+
         return TaotaoResult.ok();
     }
 
@@ -145,6 +150,18 @@ public class ItemserverImpl implements ItemService {
 
         itemDescMapper.insert(itemDesc);
         return TaotaoResult.ok();
+    }
 
+    private TaotaoResult insertItemParamItem(long itemId, String itemParams){
+        //创建pojo
+        TbItemParamItem itemParamItem = new TbItemParamItem();
+        itemParamItem.setItemId(itemId);
+        itemParamItem.setParamData(itemParams);
+        itemParamItem.setCreated(new Date());
+        itemParamItem.setUpdated(new Date());
+
+        itemParamItemMapper.insert(itemParamItem);
+
+        return TaotaoResult.ok();
     }
 }

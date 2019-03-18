@@ -24,16 +24,16 @@ public class ItemParamServiceImpl implements ItemParamService {
     @Override
     public EUDataGridResult getItemParamList(int page, int rows) {
         //创建一个条件对象
-        TbItemParamItemExample itemParamItemExample = new TbItemParamItemExample();
+        TbItemParamExample itemParamExample = new TbItemParamExample();
         //设置分页信息
         PageHelper.startPage(page, rows);
         //查询商品规格参数
-        List<TbItemParamItem> itemParamItemList = itemParamItemMapper.selectByExampleWithBLOBs(itemParamItemExample);
+        List<TbItemParam> itemParamList = itemParamMapper.selectByExampleWithBLOBs(itemParamExample);
         //创建一个easyui数据对象
         EUDataGridResult result = new EUDataGridResult();
-        result.setRows(itemParamItemList);
+        result.setRows(itemParamList);
         //获取商品总条数
-        PageInfo<TbItemParamItem> pageInfo = new PageInfo<>(itemParamItemList);
+        PageInfo<TbItemParam> pageInfo = new PageInfo<>(itemParamList);
         result.setTotal(pageInfo.getTotal());
 
         return result;
