@@ -76,9 +76,6 @@
                 <configuration>
                     <port>8081</port>
                     <path>/</path>
-                    <url>http://192.168.142.128:8081/manager/text</url>
-                    <username>tomcat</username>
-                    <password>tomcat</password>
                 </configuration>
             </plugin>
         </plugins>
