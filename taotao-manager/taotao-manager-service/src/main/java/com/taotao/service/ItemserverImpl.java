@@ -106,7 +106,10 @@ public class ItemserverImpl implements ItemService {
     /**
      * 商品添加
      * @param item
+     * @param desc
+     * @param itemParams
      * @return
+     * @throws Exception
      */
     @Override
     public TaotaoResult createItem(TbItem item, String desc, String itemParams) throws Exception{
