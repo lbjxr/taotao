@@ -1,10 +1,11 @@
-package com.taotao.service;
+package com.taotao.service.impl;
 
+import com.taotao.common.pojo.EUTreeNode;
 import com.taotao.mapper.TbContentCategoryMapper;
-import com.taotao.pojo.EUTreeNode;
 import com.taotao.pojo.TbContentCategory;
 import com.taotao.pojo.TbContentCategoryExample;
-import com.taotao.utils.TaotaoResult;
+import com.taotao.service.ContentCategoryService;
+import com.taotao.common.utils.TaotaoResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
 package com.taotao.service;
 
-import com.taotao.pojo.EUDataGridResult;
+import com.taotao.common.pojo.EUDataGridResult;
 import com.taotao.pojo.TbItemParam;
-import com.taotao.utils.TaotaoResult;
+import com.taotao.common.utils.TaotaoResult;
 
 public interface ItemParamService {
     EUDataGridResult getItemParamList(int page, int rows);

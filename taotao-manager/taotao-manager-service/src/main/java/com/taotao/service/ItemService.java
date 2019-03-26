@@ -1,8 +1,8 @@
 package com.taotao.service;
 
-import com.taotao.pojo.EUDataGridResult;
+import com.taotao.common.pojo.EUDataGridResult;
 import com.taotao.pojo.TbItem;
-import com.taotao.utils.TaotaoResult;
+import com.taotao.common.utils.TaotaoResult;
 
 import java.util.List;
 

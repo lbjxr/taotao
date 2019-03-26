@@ -1,9 +1,8 @@
-package com.taotao.controller;
+package com.taotao.web.controller;
 
-import com.github.pagehelper.PageInfo;
-import com.taotao.pojo.EUTreeNode;
+import com.taotao.common.pojo.EUTreeNode;
 import com.taotao.service.ContentCategoryService;
-import com.taotao.utils.TaotaoResult;
+import com.taotao.common.utils.TaotaoResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

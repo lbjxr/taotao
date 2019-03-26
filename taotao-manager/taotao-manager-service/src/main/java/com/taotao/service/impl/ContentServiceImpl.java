@@ -1,15 +1,18 @@
-package com.taotao.service;
+package com.taotao.service.impl;
 
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.taotao.mapper.TbContentMapper;
-import com.taotao.pojo.EUDataGridResult;
-import com.taotao.pojo.TbContent;
+import com.taotao.common.pojo.EUDataGridResult;
 import com.taotao.pojo.TbContentExample;
+import com.taotao.mapper.TbContentMapper;
+import com.taotao.pojo.TbContent;
+import com.taotao.service.ContentService;
+import com.taotao.common.utils.TaotaoResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -40,5 +43,15 @@ public class ContentServiceImpl implements ContentService {
         gridResult.setTotal(pageInfo.getTotal());
 
         return gridResult;
+    }
+
+    @Override
+    public TaotaoResult insertContent(TbContent tbContent) {
+        tbContent.setCreated(new Date());
+        tbContent.setUpdated(new Date());
+
+        contentMapper.insert(tbContent);
+
+        return TaotaoResult.ok();
     }
 }

@@ -1,7 +1,7 @@
 package com.taotao.service;
 
-import com.taotao.pojo.EUTreeNode;
-import com.taotao.pojo.TbItemCat;
+
+import com.taotao.common.pojo.EUTreeNode;
 
 import java.util.List;
 

@@ -1,7 +1,8 @@
-package com.taotao.service;
+package com.taotao.service.impl;
 
-import com.taotao.utils.FtpUtil;
-import com.taotao.utils.IDUtils;
+import com.taotao.service.PictureService;
+import com.taotao.common.utils.FtpUtil;
+import com.taotao.common.utils.IDUtils;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

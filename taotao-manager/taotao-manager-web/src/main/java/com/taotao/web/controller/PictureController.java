@@ -1,4 +1,4 @@
-package com.taotao.controller;
+package com.taotao.web.controller;
 
 import com.taotao.service.PictureService;
 import org.springframework.beans.factory.annotation.Autowired;

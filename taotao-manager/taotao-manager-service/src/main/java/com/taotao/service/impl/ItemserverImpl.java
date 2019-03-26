@@ -1,13 +1,15 @@
-package com.taotao.service;
+package com.taotao.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.mapper.TbItemDescMapper;
 import com.taotao.mapper.TbItemMapper;
 import com.taotao.mapper.TbItemParamItemMapper;
+import com.taotao.common.pojo.*;
+import com.taotao.common.utils.IDUtils;
+import com.taotao.common.utils.TaotaoResult;
 import com.taotao.pojo.*;
-import com.taotao.utils.IDUtils;
-import com.taotao.utils.TaotaoResult;
+import com.taotao.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
