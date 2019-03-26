@@ -55,6 +55,13 @@
             <version>${jsp-api.version}</version>
             <scope>provided</scope>
         </dependency>
+        <!-- 单元测试 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <!-- 配置插件 -->
@@ -63,7 +70,7 @@
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
-                    <port>8082</port>
+                    <port>8083</port>
                     <path>/</path>
                 </configuration>
             </plugin>
