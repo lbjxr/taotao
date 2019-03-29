@@ -9,6 +9,7 @@
 
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.taotao</groupId>
     <packaging>pom</packaging>
     <modules>
         <module>taotao-manager-pojo</module>
