@@ -1,0 +1,757 @@
+Index: taotao/taotao-common/src/main/java/com/taotao/common/utils/ExceptionUtil.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-common/src/main/java/com/taotao/common/utils/ExceptionUtil.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
++++ taotao/taotao-common/src/main/java/com/taotao/common/utils/ExceptionUtil.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -0,0 +1,25 @@
++package com.taotao.common.utils;
++
++import java.io.PrintWriter;
++import java.io.StringWriter;
++
++public class ExceptionUtil {
++
++	/**
++	 * 获取异常的堆栈信息
++	 * 
++	 * @param t
++	 * @return
++	 */
++	public static String getStackTrace(Throwable t) {
++		StringWriter sw = new StringWriter();
++		PrintWriter pw = new PrintWriter(sw);
++
++		try {
++			t.printStackTrace(pw);
++			return sw.toString();
++		} finally {
++			pw.close();
++		}
++	}
++}
+Index: taotao/taotao-common/src/main/java/com/taotao/utils/FtpUtil.java
+===================================================================
+--- taotao/taotao-common/src/main/java/com/taotao/utils/FtpUtil.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-common/src/main/java/com/taotao/common/utils/FtpUtil.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,4 +1,4 @@
+-package com.taotao.utils;
++package com.taotao.common.utils;
+ 
+ import java.io.File;
+ import java.io.FileInputStream;
+Index: taotao/taotao-common/src/main/java/com/taotao/utils/IDUtils.java
+===================================================================
+--- taotao/taotao-common/src/main/java/com/taotao/utils/IDUtils.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-common/src/main/java/com/taotao/common/utils/IDUtils.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,4 +1,4 @@
+-package com.taotao.utils;
++package com.taotao.common.utils;
+ 
+ import java.util.Random;
+ 
+Index: taotao/taotao-common/src/main/java/com/taotao/utils/JsonUtils.java
+===================================================================
+--- taotao/taotao-common/src/main/java/com/taotao/utils/JsonUtils.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-common/src/main/java/com/taotao/common/utils/JsonUtils.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,12 +1,10 @@
+-package com.taotao.utils;
++package com.taotao.common.utils;
+ 
+ import java.util.List;
+ 
+ import com.fasterxml.jackson.core.JsonProcessingException;
+ import com.fasterxml.jackson.databind.JavaType;
+-import com.fasterxml.jackson.databind.JsonNode;
+ import com.fasterxml.jackson.databind.ObjectMapper;
+-import com.taotao.utils.TaotaoResult;
+ 
+ /**
+  * 淘淘商城自定义响应结构
+Index: taotao/taotao-common/src/main/java/com/taotao/utils/TaotaoResult.java
+===================================================================
+--- taotao/taotao-common/src/main/java/com/taotao/utils/TaotaoResult.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-common/src/main/java/com/taotao/common/utils/TaotaoResult.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,4 +1,4 @@
+-package com.taotao.utils;
++package com.taotao.common.utils;
+ 
+ import com.fasterxml.jackson.databind.JsonNode;
+ import com.fasterxml.jackson.databind.ObjectMapper;
+Index: taotao/taotao-common/src/main/java/com/taotao/pojo/EUDataGridResult.java
+===================================================================
+--- taotao/taotao-common/src/main/java/com/taotao/pojo/EUDataGridResult.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-common/src/main/java/com/taotao/pojo/EUDataGridResult.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
+@@ -1,31 +0,0 @@
+-package com.taotao.pojo;
+-
+-import jdk.nashorn.internal.objects.annotations.Getter;
+-
+-import java.util.List;
+-
+-//easyui前端框架数据格式的结果集
+-public class EUDataGridResult {
+-
+-    //数据总数
+-    private long total;
+-
+-    //数据集
+-    private List<?> rows;
+-
+-    public long getTotal() {
+-        return total;
+-    }
+-
+-    public void setTotal(long total) {
+-        this.total = total;
+-    }
+-
+-    public List<?> getRows() {
+-        return rows;
+-    }
+-
+-    public void setRows(List<?> rows) {
+-        this.rows = rows;
+-    }
+-}
+Index: taotao/taotao-common/src/main/java/com/taotao/pojo/EUTreeNode.java
+===================================================================
+--- taotao/taotao-common/src/main/java/com/taotao/pojo/EUTreeNode.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-common/src/main/java/com/taotao/pojo/EUTreeNode.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
+@@ -1,32 +0,0 @@
+-package com.taotao.pojo;
+-
+-public class EUTreeNode {
+-
+-    private long id;
+-    private String text;
+-    private String state;
+-
+-    public long getId() {
+-        return id;
+-    }
+-
+-    public void setId(long id) {
+-        this.id = id;
+-    }
+-
+-    public String getText() {
+-        return text;
+-    }
+-
+-    public void setText(String text) {
+-        this.text = text;
+-    }
+-
+-    public String getState() {
+-        return state;
+-    }
+-
+-    public void setState(String state) {
+-        this.state = state;
+-    }
+-}
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentCategoryService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentCategoryService.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentCategoryService.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,8 +1,7 @@
+ package com.taotao.service;
+ 
+-import com.taotao.pojo.EUTreeNode;
+-import com.taotao.pojo.TbContentCategory;
+-import com.taotao.utils.TaotaoResult;
++import com.taotao.common.pojo.EUTreeNode;
++import com.taotao.common.utils.TaotaoResult;
+ 
+ import java.util.List;
+ 
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentService.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentService.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,7 +1,10 @@
+ package com.taotao.service;
+ 
+-import com.taotao.pojo.EUDataGridResult;
++import com.taotao.common.pojo.EUDataGridResult;
++import com.taotao.pojo.TbContent;
++import com.taotao.common.utils.TaotaoResult;
+ 
+ public interface ContentService {
+     EUDataGridResult getContentById(Long categoryId, int page, int rows);
++    TaotaoResult insertContent(TbContent tbContent);
+ }
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatService.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatService.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,7 +1,7 @@
+ package com.taotao.service;
+ 
+-import com.taotao.pojo.EUTreeNode;
+-import com.taotao.pojo.TbItemCat;
++
++import com.taotao.common.pojo.EUTreeNode;
+ 
+ import java.util.List;
+ 
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemParamService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemParamService.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemParamService.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,8 +1,8 @@
+ package com.taotao.service;
+ 
+-import com.taotao.pojo.EUDataGridResult;
++import com.taotao.common.pojo.EUDataGridResult;
+ import com.taotao.pojo.TbItemParam;
+-import com.taotao.utils.TaotaoResult;
++import com.taotao.common.utils.TaotaoResult;
+ 
+ public interface ItemParamService {
+     EUDataGridResult getItemParamList(int page, int rows);
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemService.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemService.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,8 +1,8 @@
+ package com.taotao.service;
+ 
+-import com.taotao.pojo.EUDataGridResult;
++import com.taotao.common.pojo.EUDataGridResult;
+ import com.taotao.pojo.TbItem;
+-import com.taotao.utils.TaotaoResult;
++import com.taotao.common.utils.TaotaoResult;
+ 
+ import java.util.List;
+ 
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentCategoryServiceImpl.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentCategoryServiceImpl.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/impl/ContentCategoryServiceImpl.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,10 +1,11 @@
+-package com.taotao.service;
++package com.taotao.service.impl;
+ 
++import com.taotao.common.pojo.EUTreeNode;
+ import com.taotao.mapper.TbContentCategoryMapper;
+-import com.taotao.pojo.EUTreeNode;
+ import com.taotao.pojo.TbContentCategory;
+ import com.taotao.pojo.TbContentCategoryExample;
+-import com.taotao.utils.TaotaoResult;
++import com.taotao.service.ContentCategoryService;
++import com.taotao.common.utils.TaotaoResult;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Service;
+ 
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentServiceImpl.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ContentServiceImpl.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/impl/ContentServiceImpl.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,15 +1,18 @@
+-package com.taotao.service;
++package com.taotao.service.impl;
+ 
+ 
+ import com.github.pagehelper.PageHelper;
+ import com.github.pagehelper.PageInfo;
++import com.taotao.common.pojo.EUDataGridResult;
++import com.taotao.pojo.TbContentExample;
+ import com.taotao.mapper.TbContentMapper;
+-import com.taotao.pojo.EUDataGridResult;
+ import com.taotao.pojo.TbContent;
+-import com.taotao.pojo.TbContentExample;
++import com.taotao.service.ContentService;
++import com.taotao.common.utils.TaotaoResult;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Service;
+ 
++import java.util.Date;
+ import java.util.List;
+ 
+ /**
+@@ -41,4 +44,14 @@
+ 
+         return gridResult;
+     }
++
++    @Override
++    public TaotaoResult insertContent(TbContent tbContent) {
++        tbContent.setCreated(new Date());
++        tbContent.setUpdated(new Date());
++
++        contentMapper.insert(tbContent);
++
++        return TaotaoResult.ok();
++    }
+ }
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatServiceImpl.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatServiceImpl.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemCatServiceImpl.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,7 +1,10 @@
+-package com.taotao.service;
++package com.taotao.service.impl;
+ 
++import com.taotao.common.pojo.EUTreeNode;
++import com.taotao.pojo.TbItemCat;
++import com.taotao.pojo.TbItemCatExample;
++import com.taotao.service.ItemCatService;
+ import com.taotao.mapper.TbItemCatMapper;
+-import com.taotao.pojo.*;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Service;
+ 
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemParamServiceImpl.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemParamServiceImpl.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemParamServiceImpl.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,11 +1,14 @@
+-package com.taotao.service;
++package com.taotao.service.impl;
+ 
+ import com.github.pagehelper.PageHelper;
+ import com.github.pagehelper.PageInfo;
++import com.taotao.common.pojo.EUDataGridResult;
++import com.taotao.pojo.TbItemParam;
++import com.taotao.pojo.TbItemParamExample;
++import com.taotao.common.utils.TaotaoResult;
+ import com.taotao.mapper.TbItemParamItemMapper;
+ import com.taotao.mapper.TbItemParamMapper;
+-import com.taotao.pojo.*;
+-import com.taotao.utils.TaotaoResult;
++import com.taotao.service.ItemParamService;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Service;
+ 
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemserverImpl.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemserverImpl.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemserverImpl.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,13 +1,15 @@
+-package com.taotao.service;
++package com.taotao.service.impl;
+ 
+ import com.github.pagehelper.PageHelper;
+ import com.github.pagehelper.PageInfo;
+ import com.taotao.mapper.TbItemDescMapper;
+ import com.taotao.mapper.TbItemMapper;
+ import com.taotao.mapper.TbItemParamItemMapper;
++import com.taotao.common.pojo.*;
++import com.taotao.common.utils.IDUtils;
++import com.taotao.common.utils.TaotaoResult;
+ import com.taotao.pojo.*;
+-import com.taotao.utils.IDUtils;
+-import com.taotao.utils.TaotaoResult;
++import com.taotao.service.ItemService;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Service;
+ 
+Index: taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/PictureServiceImpl.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/PictureServiceImpl.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/impl/PictureServiceImpl.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,7 +1,8 @@
+-package com.taotao.service;
++package com.taotao.service.impl;
+ 
+-import com.taotao.utils.FtpUtil;
+-import com.taotao.utils.IDUtils;
++import com.taotao.service.PictureService;
++import com.taotao.common.utils.FtpUtil;
++import com.taotao.common.utils.IDUtils;
+ import org.joda.time.DateTime;
+ import org.springframework.beans.factory.annotation.Value;
+ import org.springframework.stereotype.Service;
+Index: taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ContentCategoryController.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ContentCategoryController.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/ContentCategoryController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,9 +1,8 @@
+-package com.taotao.controller;
++package com.taotao.web.controller;
+ 
+-import com.github.pagehelper.PageInfo;
+-import com.taotao.pojo.EUTreeNode;
++import com.taotao.common.pojo.EUTreeNode;
+ import com.taotao.service.ContentCategoryService;
+-import com.taotao.utils.TaotaoResult;
++import com.taotao.common.utils.TaotaoResult;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Controller;
+ import org.springframework.web.bind.annotation.RequestMapping;
+Index: taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ContentController.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ContentController.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/ContentController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,14 +1,16 @@
+-package com.taotao.controller;
++package com.taotao.web.controller;
+ 
+-import com.taotao.pojo.EUDataGridResult;
++import com.taotao.common.pojo.EUDataGridResult;
++import com.taotao.pojo.TbContent;
+ import com.taotao.service.ContentService;
++import com.taotao.common.utils.TaotaoResult;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Controller;
+ import org.springframework.web.bind.annotation.RequestMapping;
+ import org.springframework.web.bind.annotation.ResponseBody;
+ 
+ @Controller
+-@RequestMapping("/content/query")
++@RequestMapping("/content")
+ public class ContentController {
+ 
+     @Autowired
+@@ -19,12 +21,19 @@
+      * @param categoryId
+      * @param page
+      * @param rows
+-     * @return
++     * @return·
+      */
+-    @RequestMapping("/list")
++    @RequestMapping("/query/list")
+     @ResponseBody
+     public EUDataGridResult getContentListById(Long categoryId, int page, int rows){
+         EUDataGridResult result = contentService.getContentById(categoryId, page, rows);
+         return result;
+     }
++
++    @RequestMapping("/save")
++    @ResponseBody
++    public TaotaoResult insertContentByForm(TbContent tbContent){
++        TaotaoResult result = contentService.insertContent(tbContent);
++        return result;
++    }
+ }
+Index: taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemCatController.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemCatController.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/ItemCatController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,8 +1,6 @@
+-package com.taotao.controller;
++package com.taotao.web.controller;
+ 
+-import com.taotao.pojo.EUTreeNode;
+-import com.taotao.pojo.TbItem;
+-import com.taotao.pojo.TbItemCat;
++import com.taotao.common.pojo.EUTreeNode;
+ import com.taotao.service.ItemCatService;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Controller;
+@@ -10,10 +8,7 @@
+ import org.springframework.web.bind.annotation.RequestParam;
+ import org.springframework.web.bind.annotation.ResponseBody;
+ 
+-import java.util.ArrayList;
+-import java.util.HashMap;
+ import java.util.List;
+-import java.util.Map;
+ 
+ /**
+  * 商品分类管理
+Index: taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemController.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemController.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/ItemController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,9 +1,9 @@
+-package com.taotao.controller;
++package com.taotao.web.controller;
+ 
+-import com.taotao.pojo.EUDataGridResult;
++import com.taotao.common.pojo.EUDataGridResult;
+ import com.taotao.pojo.TbItem;
++import com.taotao.common.utils.TaotaoResult;
+ import com.taotao.service.ItemService;
+-import com.taotao.utils.TaotaoResult;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Controller;
+ import org.springframework.web.bind.annotation.*;
+Index: taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemParamController.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemParamController.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/ItemParamController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,9 +1,9 @@
+-package com.taotao.controller;
++package com.taotao.web.controller;
+ 
+-import com.taotao.pojo.EUDataGridResult;
++import com.taotao.common.pojo.EUDataGridResult;
+ import com.taotao.pojo.TbItemParam;
++import com.taotao.common.utils.TaotaoResult;
+ import com.taotao.service.ItemParamService;
+-import com.taotao.utils.TaotaoResult;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Controller;
+ import org.springframework.web.bind.annotation.*;
+@@ -25,7 +25,7 @@
+      */
+     @GetMapping(value = "/list")
+     @ResponseBody
+-    public EUDataGridResult getItemParamList(Integer page, Integer rows){
++    private EUDataGridResult getItemParamList(Integer page, Integer rows){
+         EUDataGridResult result = itemParamService.getItemParamList(page, rows);
+         return  result;
+     }
+Index: taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/PageController.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/PageController.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/PageController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,4 +1,4 @@
+-package com.taotao.controller;
++package com.taotao.web.controller;
+ 
+ import org.springframework.stereotype.Controller;
+ import org.springframework.web.bind.annotation.PathVariable;
+Index: taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/PictureController.java
+===================================================================
+--- taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/PictureController.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/PictureController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,4 +1,4 @@
+-package com.taotao.controller;
++package com.taotao.web.controller;
+ 
+ import com.taotao.service.PictureService;
+ import org.springframework.beans.factory.annotation.Autowired;
+Index: taotao/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-dao.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-dao.xml	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-dao.xml	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -8,7 +8,6 @@
+ 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+ 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+ 
+-    <!-- 数据库连接池 -->
+     <!-- 加载配置文件 -->
+     <context:property-placeholder location="classpath:resource/*.properties" />
+     <!-- 数据库连接池 -->
+Index: taotao/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -7,7 +7,7 @@
+         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+-    <context:component-scan base-package="com.taotao.controller" />
++    <context:component-scan base-package="com.taotao.web.controller" />
+     <mvc:annotation-driven />
+     <bean
+             class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+Index: taotao/taotao-rest/src/main/java/com/taotao/rest/controller/ContentController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-rest/src/main/java/com/taotao/rest/controller/ContentController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
++++ taotao/taotao-rest/src/main/java/com/taotao/rest/controller/ContentController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -0,0 +1,37 @@
++package com.taotao.rest.controller;
++
++import com.taotao.common.utils.ExceptionUtil;
++import com.taotao.pojo.TbContent;
++import com.taotao.rest.service.ContentService;
++import com.taotao.common.utils.TaotaoResult;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.stereotype.Controller;
++import org.springframework.web.bind.annotation.PathVariable;
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.bind.annotation.ResponseBody;
++
++import java.util.List;
++
++/**
++ * 内容管理controller
++ */
++@Controller
++@RequestMapping("/content")
++public class ContentController {
++
++    @Autowired
++    private ContentService contentService;
++
++    @RequestMapping("/list/{contentCategoryId}")
++    @ResponseBody
++    public TaotaoResult getContentList(@PathVariable Long contentCategoryId){
++        try {
++            List<TbContent> contentList = contentService.getContentList(contentCategoryId);
++            return TaotaoResult.ok(contentList);
++        }catch (Exception e){
++            e.printStackTrace();
++            return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
++
++        }
++    }
++}
+Index: taotao/taotao-rest/src/main/java/com/taotao/rest/controller/ItemCatController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-rest/src/main/java/com/taotao/rest/controller/ItemCatController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
++++ taotao/taotao-rest/src/main/java/com/taotao/rest/controller/ItemCatController.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -0,0 +1,51 @@
++package com.taotao.rest.controller;
++
++import com.taotao.rest.pojo.CatResult;
++import com.taotao.rest.service.ItemCatService;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.http.converter.json.MappingJacksonValue;
++import org.springframework.stereotype.Controller;
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.bind.annotation.ResponseBody;
++
++/**
++ * 商品分类列表实现控制层
++ */
++@Controller
++public class ItemCatController {
++
++    @Autowired
++    ItemCatService itemCatService;
++
++    /**
++     * 拼接字符串形式返回json数据
++     * @param callback
++     * @return
++     */
++    /*
++    @RequestMapping(value = "/itemcat/list", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=utf-8")
++    @ResponseBody
++    public String getItemCatList(String callback){
++
++        CatResult catResult = itemCatService.getItemCatList();
++        //将pojo转换成json字符串
++        String json = JsonUtils.objectToJson(catResult);
++        //拼装返回值
++        String result = callback + "(" + json + ")";
++        return result;
++    }*/
++
++    /**
++     * 获取分类列表
++     * @param callback
++     * @return
++     */
++    @RequestMapping(value = "/itemcat/list")
++    @ResponseBody
++    public Object getItemCatList(String callback){
++        CatResult catResult = itemCatService.getItemCatList();
++        MappingJacksonValue jacksonValue = new MappingJacksonValue(catResult);
++        jacksonValue.setJsonpFunction(callback);
++        return jacksonValue;
++    }
++}
+Index: taotao/taotao-rest/src/main/java/com/taotao/rest/service/ContentService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-rest/src/main/java/com/taotao/rest/service/ContentService.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
++++ taotao/taotao-rest/src/main/java/com/taotao/rest/service/ContentService.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -0,0 +1,10 @@
++package com.taotao.rest.service;
++
++import com.taotao.pojo.TbContent;
++
++import java.util.List;
++
++public interface ContentService {
++
++    List<TbContent> getContentList(long contentCid);
++}
+Index: taotao/taotao-rest/src/main/java/com/taotao/rest/service/ItemCatService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-rest/src/main/java/com/taotao/rest/service/ItemCatService.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
++++ taotao/taotao-rest/src/main/java/com/taotao/rest/service/ItemCatService.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -0,0 +1,8 @@
++package com.taotao.rest.service;
++
++import com.taotao.rest.pojo.CatResult;
++
++public interface ItemCatService {
++
++    CatResult getItemCatList();
++}
+Index: taotao/taotao-rest/src/main/java/com/taotao/rest/service/impl/ContentServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- taotao/taotao-rest/src/main/java/com/taotao/rest/service/impl/ContentServiceImpl.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
++++ taotao/taotao-rest/src/main/java/com/taotao/rest/service/impl/ContentServiceImpl.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -0,0 +1,27 @@
++package com.taotao.rest.service.impl;
++
++import com.taotao.pojo.TbContent;
++import com.taotao.pojo.TbContentExample;
++import com.taotao.mapper.TbContentMapper;
++import com.taotao.rest.service.ContentService;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.stereotype.Service;
++
++import java.util.List;
++
++@Service
++public class ContentServiceImpl implements ContentService {
++    @Autowired
++    private TbContentMapper contentMapper;
++    @Override
++    public List<TbContent> getContentList(long contentCid) {
++
++        TbContentExample contentExample = new TbContentExample();
++        TbContentExample.Criteria criteria = contentExample.createCriteria();
++        criteria.andCategoryIdEqualTo(contentCid);
++
++        List<TbContent> contentList = contentMapper.selectByExample(contentExample);
++
++        return contentList;
++    }
++}
+Index: taotao/taotao-rest/src/main/java/com/taotao/rest/service/ItemCatServiceImpl.java
+===================================================================
+--- taotao/taotao-rest/src/main/java/com/taotao/rest/service/ItemCatServiceImpl.java	(revision 519b40066bdb2ff3e5b4b659efba83e6b1ac1143)
++++ taotao/taotao-rest/src/main/java/com/taotao/rest/service/impl/ItemCatServiceImpl.java	(revision e5e76781a1a74ffd0214b0d99e56eb9e8466d7d5)
+@@ -1,10 +1,11 @@
+-package com.taotao.rest.service;
++package com.taotao.rest.service.impl;
+ 
+-import com.taotao.mapper.TbItemCatMapper;
+-import com.taotao.pojo.TbItemCat;
+ import com.taotao.pojo.TbItemCatExample;
+ import com.taotao.rest.pojo.CatNode;
+ import com.taotao.rest.pojo.CatResult;
++import com.taotao.mapper.TbItemCatMapper;
++import com.taotao.pojo.TbItemCat;
++import com.taotao.rest.service.ItemCatService;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Service;
+ 

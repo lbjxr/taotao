@@ -1,0 +1,7 @@
+com\taotao\web\controller\ItemController.class
+com\taotao\web\controller\PageController.class
+com\taotao\web\controller\ItemParamController.class
+com\taotao\web\controller\PictureController.class
+com\taotao\web\controller\ItemCatController.class
+com\taotao\web\controller\ContentCategoryController.class
+com\taotao\web\controller\ContentController.class
