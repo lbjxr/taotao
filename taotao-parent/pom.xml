@@ -9,11 +9,11 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   
-  <modules>
-    <module>taotao-common</module>
-    <module>taotao-manager</module>
-    <module>taotao-rest</module>
-  </modules>
+  <!--<modules>-->
+    <!--<module>../taotao-common</module>-->
+    <!--<module>../taotao-manager</module>-->
+    <!--<module>../taotao-rest</module>-->
+  <!--</modules>-->
 
   <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
