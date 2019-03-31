@@ -31,27 +31,16 @@
 <form id="orderForm" class="hide" action="/order/create.html" method="post">
 		<input type="hidden" name="paymentType" value="1"/>
 		<c:forEach items="${cartList }" var="cart" varStatus="status">
-<<<<<<< HEAD
-			<c:set var="totalPrice"  value="${ totalPrice + (cart.price * cart.num)}"/>
-			<input type="hidden" name="orderItems[${status.index}].itemId" value="${cart.id}"/>
-			<input type="hidden" name="orderItems[${status.index}].num" value="${cart.num }"/>
-			<input type="hidden" name="orderItems[${status.index}].price" value="${cart.price}"/>
-			<input type="hidden" name="orderItems[${status.index}].totalFee" value="${cart.price * cart.num}"/>
-=======
 			<c:set var="totalPrice"  value="${ totalPrice + (cart.price * cart.cartItemNum)}"/>
 			<input type="hidden" name="orderItems[${status.index}].itemId" value="${cart.id}"/>
 			<input type="hidden" name="orderItems[${status.index}].cartItemNum" value="${cart.cartItemNum }"/>
 			<input type="hidden" name="orderItems[${status.index}].price" value="${cart.price}"/>
 			<input type="hidden" name="orderItems[${status.index}].totalFee" value="${cart.price * cart.cartItemNum}"/>
->>>>>>> origin/LBJ
 			<input type="hidden" name="orderItems[${status.index}].title" value="${cart.title}"/>
 			<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.images[0]}"/>
 		</c:forEach>
 		<input type="hidden" name="payment" value="<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${totalPrice/100 }"/>"/>
-<<<<<<< HEAD
-=======
 		<input type="hidden" name="postFee" value="0"/>
->>>>>>> origin/LBJ
 		<input type="hidden" name="orderShipping.receiverName" value="入云龙"/>
 		<input type="hidden" name="orderShipping.receiverMobile" value="15891588888"/>
 		<input type="hidden" name="orderShipping.receiverState" value="北京"/>
@@ -215,11 +204,7 @@
 							groupingUsed="false" maxFractionDigits="2"
 							minFractionDigits="2" value="${cart.price / 100 }" /></strong>
 					<!--增加预售金额显示 end-->
-<<<<<<< HEAD
-					<span class="ml20"> x${cart.num} </span> 
-=======
 					<span class="ml20"> x${cart.cartItemNum} </span> 
->>>>>>> origin/LBJ
 					<span class="ml20 p-inventory" skuId="11555193">有货</span>
 				</div>
 				<i class="p-icon p-icon-w"></i><span class="ftx-04">7天无理由退货</span>

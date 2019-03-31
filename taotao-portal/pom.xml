@@ -3,29 +3,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-<<<<<<< HEAD
-        <groupId>com.taotao</groupId>
-        <artifactId>taotao-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.taotao</groupId>
-    <artifactId>taotao-portal</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
-    <dependencies>
-        <dependency>
-            <groupId>com.taotao</groupId>
-            <artifactId>taotao-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.taotao</groupId>
-            <artifactId>taotao-manager-pojo</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-=======
         <artifactId>taotao-parent</artifactId>
         <groupId>guo.ping</groupId>
         <version>1.0-SNAPSHOT</version>
@@ -53,7 +30,6 @@
             <artifactId>taotao-manager-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
->>>>>>> origin/LBJ
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -76,35 +52,6 @@
             <artifactId>spring-aspects</artifactId>
         </dependency>
         <dependency>
-<<<<<<< HEAD
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jsp-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <!-- 单元测试 -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.taotao</groupId>
-            <artifactId>taotao-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.taotao</groupId>
-            <artifactId>taotao-manager-pojo</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
-=======
             <groupId>org.springframework</groupId>
             <artifactId>spring-jms</artifactId>
         </dependency>
@@ -129,7 +76,6 @@
         </dependency>
     </dependencies>
 
->>>>>>> origin/LBJ
     <build>
         <!-- 配置插件 -->
         <plugins>
@@ -137,18 +83,10 @@
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
-<<<<<<< HEAD
-                    <port>8083</port>
-=======
                     <port>8082</port>
->>>>>>> origin/LBJ
                     <path>/</path>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-<<<<<<< HEAD
 </project>
-=======
-</project>
->>>>>>> origin/LBJ

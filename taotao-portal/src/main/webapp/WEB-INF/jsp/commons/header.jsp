@@ -22,11 +22,7 @@
 		<!--search end-->
 		<div id="my360buy-2013">
 			<dl>
-<<<<<<< HEAD
-				<dt class="ld"><s></s><a href="http://localhost:8084/user/showLogin" clstag="homepage|keycount|home2012|04a">我的淘淘</a><b></b></dt>
-=======
 				<dt class="ld"><s></s><a href="http://sso.taotao.com/user/page/login" clstag="homepage|keycount|home2012|04a">我的淘淘</a><b></b></dt>
->>>>>>> origin/LBJ
 				<dd>
 					<div class="loading-style1"><b></b>加载中，请稍候...</div>
 				</dd>

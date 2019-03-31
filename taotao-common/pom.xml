@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>taotao-parent</artifactId>
-        <groupId>com.taotao</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.taotao</groupId>
-    <artifactId>taotao-common</artifactId>
-
-    <!-- jar包的依赖 -->
-    <dependencies>
-=======
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -56,7 +40,6 @@
             <artifactId>standard</artifactId>
             <version>1.0.4</version>
         </dependency>
->>>>>>> origin/LBJ
         <!-- 时间操作组件 -->
         <dependency>
             <groupId>joda-time</groupId>
@@ -85,14 +68,11 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
         </dependency>
-<<<<<<< HEAD
-=======
         <!-- quartz任务调度框架 -->
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
         </dependency>
->>>>>>> origin/LBJ
         <!-- 单元测试 -->
         <dependency>
             <groupId>junit</groupId>
@@ -104,10 +84,6 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
         </dependency>
-<<<<<<< HEAD
-    </dependencies>
-</project>
-=======
         <!--FastDFS文件上传-->
         <dependency>
             <groupId>cn.bestwu</groupId>
@@ -115,4 +91,3 @@
         </dependency>
     </dependencies>
 </project>
->>>>>>> origin/LBJ
