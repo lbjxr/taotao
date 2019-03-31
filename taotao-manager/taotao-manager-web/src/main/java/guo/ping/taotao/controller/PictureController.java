@@ -18,6 +18,6 @@ public class PictureController {
     @RequestMapping("/upload")
     @ResponseBody
     public String uploadFile(MultipartFile uploadFile) {  // 参数必须是为uploadFile
-        return JsonUtils.objectToJson(pictureService.upload(uploadFile));
+        return JsonUtils.objectToJson(pictureService.uploadPicture(uploadFile));
     }
 }

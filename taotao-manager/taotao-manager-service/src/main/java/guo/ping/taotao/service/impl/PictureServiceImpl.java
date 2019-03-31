@@ -1,46 +1,67 @@
 package guo.ping.taotao.service.impl;
 
-import guo.ping.taotao.common.pojo.PictureResult;
-import guo.ping.taotao.common.utils.FastDFSClient;
+import guo.ping.taotao.common.utils.FtpUtil;
+import guo.ping.taotao.common.utils.IDUtils;
 import guo.ping.taotao.service.PictureService;
+import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
 @Service
 public class PictureServiceImpl implements PictureService {
 
-    @Value("${IMAGE_SERVER_BASE_URL}")
-    private String IMAGE_SERVER_BASE_URL;
+
+    //加载ftp参数
+    @Value("${FTP_ADDRESS}")
+    private String FTP_ADDRESS;
+    @Value("${FTP_PORT}")
+    private Integer FTP_PORT;
+    @Value("${FTP_USERNAME}")
+    private String FTP_USERNAME;
+    @Value("${FTP_PASSWORD}")
+    private String FTP_PASSWORD;
+    @Value("${FTP_BASE_PATH}")
+    private String FTP_BASE_PATH;
+    @Value("${IMAGE_BASE_URL}")
+    private String IMAGE_BASE_URL;
 
     @Override
-    public PictureResult upload(MultipartFile picFile) {
+    public Map uploadPicture(MultipartFile uploadFile) {
 
-        PictureResult pictureResult = new PictureResult();
-
-        if (picFile.isEmpty()) {
-            pictureResult.setError(1);
-            pictureResult.setMessage("图片为空");
-            return pictureResult;
-        }
-
+        Map resultMap = new HashMap();
         try {
-            // 截取扩展名
-            String originalFilename = picFile.getOriginalFilename();
-            String extName = originalFilename.substring(originalFilename.lastIndexOf(".") + 1);
-            // 上传
-            FastDFSClient client = new FastDFSClient("classpath:properties/client.conf");
-            String url = client.uploadFile(picFile.getBytes(), extName);
-            // 拼接url 返回数据
-            pictureResult.setUrl(IMAGE_SERVER_BASE_URL + url);
-            pictureResult.setError(0);
+            //生成一个新的文件名
+            //获取原始文件名
+            String oldName = uploadFile.getOriginalFilename();
 
-        } catch (Exception e) {
-            e.printStackTrace();
-            pictureResult.setError(1);
-            pictureResult.setMessage("图片上传失败");
+            //生成新的文件名
+            String newName = IDUtils.genImageName();
+            newName = newName + oldName.substring(oldName.lastIndexOf("."));
+
+            String imagePath = new DateTime().toString("yyyy/MM/dd");
+            //图片上传
+            boolean result = FtpUtil.uploadFile(FTP_ADDRESS,FTP_PORT,FTP_USERNAME,FTP_PASSWORD,FTP_BASE_PATH,
+                    imagePath, newName,uploadFile.getInputStream());
+
+            //返回结果
+            if(!result){
+                resultMap.put("error", 1);
+                resultMap.put("message", "图片上传失败");
+                return resultMap;
+            }
+
+            resultMap.put("error", 0);
+            resultMap.put("url", IMAGE_BASE_URL + imagePath + "/" + newName);
+            return resultMap;
+        } catch (IOException e) {
+            resultMap.put("error", 1);
+            resultMap.put("message", "上传文件发生异常");
+            return resultMap;
         }
-
-        return pictureResult;
     }
 }
