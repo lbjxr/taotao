@@ -27,6 +27,7 @@ public class ItemCatServiceImpl implements ItemCatService{
 
     /**
      * 根据id递归查询
+     * 前端页面受限，只取前14个结点
      * @param parentId
      * @return
      */
@@ -34,6 +35,7 @@ public class ItemCatServiceImpl implements ItemCatService{
         List<TbItemCat> tbItemCats = tbItemCatMapper.getItemCatByParentId(parentId);
 
         List resultLists = new ArrayList();
+        int count = 0;
         for (TbItemCat tbItemCat : tbItemCats) {
             if (tbItemCat.getIsParent()) {
                 // 如果是父节点
@@ -46,7 +48,9 @@ public class ItemCatServiceImpl implements ItemCatService{
                     node.setName(tbItemCat.getName());
                 }
 
-                node.setItem(recurrentCatNodeList(tbItemCat.getId()));
+                if (count ++ < 14) {
+                    node.setItem(recurrentCatNodeList(tbItemCat.getId()));
+                }else { break; }
 
                 resultLists.add(node);
             } else {
