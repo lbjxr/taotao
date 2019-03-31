@@ -10,429 +10,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0638f5e4-d1ab-4d04-9aa4-aada684b7fc2" name="Default Changelist" comment="httpclient方法测试。">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-common/target/taotao-parent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbContentCategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbContentCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbContentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemCatMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemCatMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemDescMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemDescMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemParamItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemParamItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemParamMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbItemParamMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderShippingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbOrderShippingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/classes/com/taotao/mapper/TbUserMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentCategoryExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbContentExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemCatExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemDescExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbItemParamItemExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderItemExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShipping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbOrderShippingExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/classes/com/taotao/pojo/TbUserExample.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/classes/com/taotao/service/ItemCatService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/classes/com/taotao/service/ItemService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/css/taotao.css" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/css/taotao.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/datagrid_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/datagrid_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/expandable.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/expandable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/multiple.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/multiple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/tools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/custom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/disabledate.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/disabledate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/firstday.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/firstday.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combo/animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combo/animation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combo/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combo/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/combobox_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/combobox_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/combobox_data2.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/combobox_data2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/customformat.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/customformat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/dynamicdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/dynamicdata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/group.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/group.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/multiline.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/multiline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/multiple.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/multiple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/remotedata.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/remotedata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/remotejsonp.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/remotejsonp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/datagrid_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/datagrid_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/initvalue.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/initvalue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/multiple.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/multiple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/initvalue.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/initvalue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/multiple.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/multiple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/tree_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/tree_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/aligncolumns.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/aligncolumns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cacheeditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cacheeditor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cellediting.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cellediting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cellstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cellstyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/checkbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/clientpagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/clientpagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/columngroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/columngroup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/complextoolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/complextoolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/contextmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/contextmenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/custompager.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/custompager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data2.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/formatcolumns.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/formatcolumns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/frozencolumns.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/frozencolumns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/frozenrows.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/frozenrows.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/mergecells.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/mergecells.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/multisorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/multisorting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowborder.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowborder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowediting.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowediting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowstyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/selection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/simpletoolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/simpletoolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/transform.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/transform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/dateformat.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/dateformat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/restrict.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/restrict.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/validate.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/validate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/initvalue.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/initvalue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/showseconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/showseconds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/complextoolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/complextoolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/toolbarbuttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/toolbarbuttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/constrain.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/constrain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/snap.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/snap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/accept.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/accept.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/sort.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/sort.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/easyloader/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/easyloader/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/form_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/form_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/load.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/load.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/validateonsubmit.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/form/validateonsubmit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/addremove.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/addremove.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/autoheight.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/autoheight.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/complex.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/complex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/datagrid_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/datagrid_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/full.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/nestedlayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/nestedlayout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/nocollapsible.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/nocollapsible.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/propertygrid_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/propertygrid_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/tree_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/tree_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/group.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/group.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/iconalign.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/iconalign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/plain.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/plain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/size.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/size.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/style.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/style.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/toggle.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/toggle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/customitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/customitem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/alignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/alignment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/alert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/interactive.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/interactive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/position.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/format.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/format.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/range.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/range.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/increment.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/increment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/range.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/range.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/attaching.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/attaching.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/custombuttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/custombuttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/links.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/customtools.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/customtools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/loadcontent.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/loadcontent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/nestedpanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/nestedpanel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/paneltools.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/paneltools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/progressbar/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/progressbar/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/progressbar/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/progressbar/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/customcolumns.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/customcolumns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/groupformat.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/groupformat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/propertygrid_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/propertygrid_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/resizable/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/resizable/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/formattip.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/formattip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/nonlinear.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/nonlinear.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/rule.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/rule.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/vertical.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/vertical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/splitbutton/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/splitbutton/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/splitbutton/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/splitbutton/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/autoheight.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/autoheight.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/dropdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/dropdown.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/fixedwidth.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/fixedwidth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/hover.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/hover.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/nestedtabs.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/nestedtabs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/striptools.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/striptools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabimage.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabimage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabposition.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabposition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabstools.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabstools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tree_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tree_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/range.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/range.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/_dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/_dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/customcontent.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/customcontent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/customstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/customstyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/position.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/toolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/toolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/tooltipdialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/tooltipdialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/animation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/checkbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/contextmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/contextmenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/dnd.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/dnd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/editable.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/editable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/formatting.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/formatting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/lazyload.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/lazyload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/lines.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/lines.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/tree_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/tree_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/tree_data2.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/tree_data2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/actions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/clientpagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/clientpagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/contextmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/contextmenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/editable.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/editable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/lines.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/lines.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data1.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data2.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data3.json" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/customtooltip.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/customtooltip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/validateonblur.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/validateonblur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/customtools.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/customtools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/inlinewindow.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/inlinewindow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/modalwindow.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/modalwindow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/windowlayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/window/windowlayout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/easyloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/easyloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/jquery.easyui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/jquery.easyui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-af.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-am.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-am.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-cz.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-cz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-da.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-de.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-el.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-en.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-es.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-jp.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-jp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-pt_BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-pt_BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-sv_SE.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-sv_SE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combo.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combobox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combobox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combogrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combogrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combotree.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combotree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datagrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datagrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datebox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datebox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datetimebox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datetimebox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datetimespinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datetimespinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.draggable.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.draggable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.droppable.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.droppable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.filebox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.filebox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.linkbutton.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.linkbutton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.menubutton.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.menubutton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.messager.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.messager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.numberbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.numberbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.numberspinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.numberspinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.panel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.progressbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.progressbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.propertygrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.propertygrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.resizable.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.resizable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.searchbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.searchbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.spinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.splitbutton.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.splitbutton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.textbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.textbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.timespinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.timespinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tooltip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.treegrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.treegrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.validatebox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.validatebox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.window.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.window.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/easyloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/easyloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.combobox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.combobox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.datebox.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.datebox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.draggable.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.draggable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.droppable.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.droppable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.linkbutton.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.linkbutton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.progressbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.progressbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.propertygrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.propertygrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.resizable.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.resizable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.window.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.window.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/color.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/themes/icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor-all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/zh_CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/zh_TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/zh_TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/anchor/anchor.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/anchor/anchor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/autoheight/autoheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/baidumap.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/baidumap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/clearhtml/clearhtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/clearhtml/clearhtml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/code/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/code/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/code/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/code/prettify.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/code/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/code/prettify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/emoticons.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/emoticons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/filemanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/flash/flash.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/flash/flash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/image/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/image/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/insertfile/insertfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/lineheight/lineheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/lineheight/lineheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/link/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/link/link.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/map/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/map/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/map/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/media/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/media/media.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/multiimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/plainpaste/plainpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/preview/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/preview/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/quickformat/quickformat.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/table/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/table/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/template/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/wordpaste/wordpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/default/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/default/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/qq/qq.css" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/qq/qq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/simple/simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/themes/simple/simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content-edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content-edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/content.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/file-upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/file-upload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/controller/TestPageHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/web/controller/TestPageHelper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/conf/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/tomcat/conf/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/commons/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/commons/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/item.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/item.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/order-cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/order-cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/base-v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/base-v1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/lib-v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/lib-v1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/search_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/search_main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/taotao.js" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/js/taotao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-rest/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-rest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-portal/src/test/java/com/taotao/httpclient/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/test/java/com/taotao/httpclient/HttpClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-portal/taotao.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/taotao.log.1" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -552,8 +229,12 @@
         <option value="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/taotao-portal/taotaoportal.iml" />
-        <option value="$PROJECT_DIR$/taotao-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/properties/resource.properties" />
+        <option value="$PROJECT_DIR$/taotao-rest/src/main/resources/properties/db.properties" />
         <option value="$PROJECT_DIR$/taotao-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-portal/src/test/java/com/taotao/httpclient/HttpClientTest.java" />
+        <option value="$PROJECT_DIR$/taotao-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/controller/TestPageHelper.java" />
       </list>
     </option>
   </component>
@@ -606,7 +287,22 @@
           <expand>
             <path>
               <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao-parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -628,13 +324,6 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/controller" />
-      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test" />
-      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper" />
-      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/resources" />
-      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="taotao" />
     </key>
@@ -644,6 +333,13 @@
       <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper" />
       <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/controller" />
+      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test" />
+      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper" />
+      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/resources" />
+      <recent name="$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -658,17 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.rest">
-    <configuration name="TestPageHelper.testPageHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="taotaomanagerweb" />
-      <option name="PACKAGE_NAME" value="com.taotao.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.taotao.controller.TestPageHelper" />
-      <option name="METHOD_NAME" value="testPageHelper" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Maven.portal">
     <configuration name="portal" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -741,23 +427,17 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/taotao-manager" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/taotao-manager/taotao-manager-web" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestPageHelper.testPageHelper" />
       <item itemvalue="Maven.web" />
       <item itemvalue="Maven.portal" />
       <item itemvalue="Maven.rest" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestPageHelper.testPageHelper" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpringGeneralSettings">
     <option name="allowAutoConfigurationMode" value="true" />
@@ -802,7 +482,7 @@
       <workItem from="1553928950735" duration="171000" />
       <workItem from="1553929410158" duration="1472000" />
       <workItem from="1554006248901" duration="130000" />
-      <workItem from="1554006459167" duration="365000" />
+      <workItem from="1554006459167" duration="3915000" />
     </task>
     <task id="LOCAL-00001" summary="完善了项目的包目录架构">
       <created>1541428990004</created>
@@ -860,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553925954627</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="合并调整">
+      <created>1554007875019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554007875019</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -881,12 +568,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62835000" />
+    <option name="totallyTimeSpent" value="66385000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" x="769" y="187" width="381" height="666" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.2446352" />
+      <window_info content_ui="combo" x="769" y="187" width="381" height="666" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.2446352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.5015015" side_tool="true" weight="0.20309168" />
       <window_info id="Image Layers" order="3" />
@@ -899,16 +595,16 @@
       <window_info id="设计器" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.36374003" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.5826682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52603036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295325" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946353" weight="0.69783354" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.22125813" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005365" side_tool="true" weight="0.35575828" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50214595" side_tool="true" weight="0.27594072" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49946696" weight="0.3286334" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49924013" weight="0.35575828" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.331813" />
@@ -934,6 +630,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -988,150 +694,14 @@
     <MESSAGE value="调整了pom文件的依赖" />
     <MESSAGE value="调整pom文件依赖关系，解决回环依赖。" />
     <MESSAGE value="httpclient方法测试。" />
-    <option name="LAST_COMMIT_MESSAGE" value="httpclient方法测试。" />
+    <MESSAGE value="合并调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并调整" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/src/main/java/com/taotao/pojo/TbItemCatExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/controller/TestPageHelper.java" />
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/PageController.java" />
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemCatController.java" />
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemCatServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/com/taotao/mapper/TbItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2112">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/com/taotao/service/ItemserverImpl.java" />
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/controller/ItemController.java" />
-    <entry file="file://$PROJECT_DIR$/网站内容管理-内容管理新增栏目内容。（调整整体项目框架，划分更加合理）.patch" />
-    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/java/com/taotao/portal/service/IndexService.java" />
-    <entry file="file://$PROJECT_DIR$/taotao-common/src/main/java/com/taotao/common/utils/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-common/src/main/java/com/taotao/common/pojo/EUDataGridResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/resources/resource/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="17" selection-start-line="11" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/java/com/taotao/portal/service/ContentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/ItemParamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-rest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-portal/taotao.log" />
-    <entry file="file://$PROJECT_DIR$/taotao-parent.iml" />
     <entry file="file://$PROJECT_DIR$/taotaoparent.iml" />
     <entry file="file://D:/视频/淘淘商城项目(有源码)/03.第三天（实现商品添加）/参考资料/工具类/TaotaoResult.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1152,71 +722,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/java/com/taotao/portal/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-tans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" selection-start-line="20" selection-start-column="3" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotao-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -1256,17 +768,239 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/web/controller/TestPageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/ItemParamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/java/com/taotao/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/com/taotao/web/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/java/guo/ping/taotao/controller/ContentCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/properties/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/src/main/java/guo/ping/taotao/service/impl/PictureServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/resource/resouce.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/properties/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/resources/resource/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="17" selection-start-line="11" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-rest/src/main/resources/resource/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="18" lean-forward="true" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-rest/src/main/resources/properties/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-rest/src/main/resources/properties/resource.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-rest/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-rest/src/main/resources/resource/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-961">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/java/guo/ping/taotao/portal/pojo/AdNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/java/guo/ping/taotao/portal/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-common/src/main/java/guo/ping/taotao/common/utils/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1742">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-rest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-portal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="2" column="104" selection-start-line="2" selection-start-column="104" selection-end-line="2" selection-end-column="104" />
+        <state relative-caret-position="350">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/test/java/com/taotao/httpclient/HttpClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/java/guo/ping/taotao/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/META-INF/application.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-910">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="22" selection-start-line="20" selection-start-column="3" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-tans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotao-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-826">
-          <caret line="2" column="104" selection-start-line="2" selection-start-column="104" selection-end-line="2" selection-end-column="104" />
+        <state relative-caret-position="105">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-mapper/src/main/java/guo/ping/taotao/mapper/TbItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/src/test/java/com/taotao/controller/TestPageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1276,11 +1010,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>taotaomanagerweb:ear exploded</last-edited>
+          <last-edited>taotao-parent:javaEEApplication exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2601103" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1299,7 +1034,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (taotao-manager-web)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1347,7 +1082,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: redis.clients:jedis:2.7.2</last-edited>
+          <last-edited>Maven: org.springframework:spring-core:4.2.4.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

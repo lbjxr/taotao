@@ -1,14 +1,7 @@
-com\taotao\web\controller\ItemController.class
-com\taotao\web\controller\ItemParamController.class
-com\taotao\web\controller\PictureController.class
-guo\ping\taotao\controller\PageController.class
-com\taotao\web\controller\ItemCatController.class
-guo\ping\taotao\controller\ContentController.class
-guo\ping\taotao\controller\ItemCatController.class
-com\taotao\web\controller\ContentController.class
-com\taotao\web\controller\PageController.class
 guo\ping\taotao\controller\ItemParamController.class
-com\taotao\web\controller\ContentCategoryController.class
+guo\ping\taotao\controller\PageController.class
+guo\ping\taotao\controller\ContentController.class
 guo\ping\taotao\controller\ContentCatController.class
 guo\ping\taotao\controller\ItemController.class
+guo\ping\taotao\controller\ItemCatController.class
 guo\ping\taotao\controller\PictureController.class

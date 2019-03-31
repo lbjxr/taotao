@@ -57,7 +57,7 @@ public class HttpClientTest {
     public void doPost() throws Exception{
         CloseableHttpClient httpClient = HttpClients.createDefault();
         //创建一个post文件
-        HttpPost httpPost = new HttpPost("http://localhost:8083/httpclient/post.html");
+        HttpPost httpPost = new HttpPost("http://localhost:8082/httpclient/post.html");
         CloseableHttpResponse httpResponse = httpClient.execute(httpPost);
         //取响应的结果
         int statusCode = httpResponse.getStatusLine().getStatusCode();
