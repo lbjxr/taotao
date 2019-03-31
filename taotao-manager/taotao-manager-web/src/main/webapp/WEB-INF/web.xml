@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
@@ -10,6 +11,19 @@
 
 
     <!-- 加载spring容器 -->
+=======
+<web-app>
+    <display-name>taotao-manager</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+    <!-- 初始化spring容器 -->
+>>>>>>> origin/LBJ
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:spring/applicationContext-*.xml</param-value>
@@ -17,6 +31,10 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/LBJ
     <!-- 解决post乱码 -->
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
@@ -30,6 +48,11 @@
         <filter-name>CharacterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/LBJ
     <!-- springmvc的前端控制器 -->
     <servlet>
         <servlet-name>taotao-manager</servlet-name>
@@ -45,4 +68,9 @@
         <servlet-name>taotao-manager</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+<<<<<<< HEAD
 </web-app>
+=======
+
+</web-app>
+>>>>>>> origin/LBJ

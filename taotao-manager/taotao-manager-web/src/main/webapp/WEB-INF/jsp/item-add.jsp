@@ -87,13 +87,20 @@
 		//同步文本框中的商品描述
 		itemAddEditor.sync();
 		//取商品的规格
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/LBJ
 		var paramJson = [];
 		$("#itemAddForm .params li").each(function(i,e){
 			var trs = $(e).find("tr");
 			var group = trs.eq(0).text();
 			var ps = [];
+<<<<<<< HEAD
 			for(var i = 1;i<trs.length;i++){
+=======
+			for(var i = 1; i<trs.length; i++) {
+>>>>>>> origin/LBJ
 				var tr = trs.eq(i);
 				ps.push({
 					"k" : $.trim(tr.find("td").eq(0).find("span").text()),
@@ -108,9 +115,16 @@
 		//把json对象转换成字符串
 		paramJson = JSON.stringify(paramJson);
 		$("#itemAddForm [name=itemParams]").val(paramJson);
+<<<<<<< HEAD
 
 		//ajax的post方式提交表单
 		//$("#itemAddForm").serialize()将表单序列号为key-value形式的字符串
+=======
+		
+		//ajax的post方式提交表单
+		//$("#itemAddForm").serialize()将表单序列号为key-value形式的字符串
+		//alert($("#itemAddForm").serialize());
+>>>>>>> origin/LBJ
 		$.post("/item/save",$("#itemAddForm").serialize(), function(data){
 			if(data.status == 200){
 				$.messager.alert('提示','新增商品成功!');

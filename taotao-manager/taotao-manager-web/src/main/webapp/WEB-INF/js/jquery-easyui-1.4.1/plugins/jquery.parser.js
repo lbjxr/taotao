@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * jQuery EasyUI 1.4.1
  * 
@@ -7,6 +8,17 @@
  * To use it on other terms please contact us at info@jeasyui.com
  *
  */
+=======
+/**
+ * jQuery EasyUI 1.4.1
+ * 
+ * Copyright (c) 2009-2014 www.jeasyui.com. All rights reserved.
+ *
+ * Licensed under the GPL license: http://www.gnu.org/licenses/gpl.txt
+ * To use it on other terms please contact us at info@jeasyui.com
+ *
+ */
+>>>>>>> origin/LBJ
 (function($){
 $.parser={auto:true,onComplete:function(_1){
 },plugins:["draggable","droppable","resizable","pagination","tooltip","linkbutton","menu","menubutton","splitbutton","progressbar","tree","textbox","filebox","combo","combobox","combotree","combogrid","numberbox","validatebox","searchbox","spinner","numberspinner","timespinner","datetimespinner","calendar","datebox","datetimebox","slider","layout","panel","datagrid","propertygrid","treegrid","tabs","accordion","window","dialog","form"],parse:function(_2){

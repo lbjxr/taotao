@@ -23,7 +23,11 @@ var TTCart = {
 		$(".quantity-form .quantity-text").rnumber(1);//限制只能输入数字
 		$(".quantity-form .quantity-text").change(function(){
 			var _thisInput = $(this);
+<<<<<<< HEAD
 			$.post("/service/cart/update/num/"+_thisInput.attr("itemId")+"/"+_thisInput.val(),function(data){
+=======
+			$.post("/service/cart/update/num/"+_thisInput.attr("itemId")+"/"+_thisInput.val() + ".action",function(data){
+>>>>>>> origin/LBJ
 				TTCart.refreshTotalPrice();
 			});
 		});

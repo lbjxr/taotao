@@ -56,7 +56,11 @@
         <!-- ************************商品开始********************* -->
         <c:set var="totalPrice" value="0"></c:set>
         <c:forEach items="${cartList}" var="cart">
+<<<<<<< HEAD
         	<c:set var="totalPrice"  value="${ totalPrice + (cart.price * cart.num)}"/>
+=======
+        	<c:set var="totalPrice"  value="${ totalPrice + (cart.price * cart.cartItemNum)}"/>
+>>>>>>> origin/LBJ
 	        <div id="product_11345721" data-bind="rowid:1" class="item item_selected ">
 		        <div class="item_form clearfix">
 		            <div class="cell p-checkbox"><input data-bind="cbid:1" class="checkbox" type="checkbox" name="checkItem" checked="" value="11345721-1"></div>
@@ -78,7 +82,11 @@
 		            <div class="cell p-quantity" for-stock="for-stock-11345721">
 		                <div class="quantity-form" data-bind="">
 		                    <a href="javascript:void(0);" class="decrement" clstag="clickcart|keycount|xincart|diminish1" id="decrement">-</a>
+<<<<<<< HEAD
 		                    <input type="text" class="quantity-text" itemPrice="${cart.price}" itemId="${cart.id}" value="${cart.num }" id="changeQuantity-11345721-1-1-0">
+=======
+		                    <input type="text" class="quantity-text" itemPrice="${cart.price}" itemId="${cart.id}" value="${cart.cartItemNum }" id="changeQuantity-11345721-1-1-0">
+>>>>>>> origin/LBJ
 		                    <a href="javascript:void(0);" class="increment" clstag="clickcart|keycount|xincart|add1" id="increment">+</a>
 		                </div>
 		            </div>
