@@ -1,7 +1,7 @@
 guo\ping\taotao\mapper\TbItemParamItemMapper.class
-guo\ping\taotao\mapper\TbItemMapper.class
 guo\ping\taotao\mapper\TbContentMapper.class
-guo\ping\taotao\mapper\TbContentCategoryMapper.class
-guo\ping\taotao\mapper\TbItemDescMapper.class
 guo\ping\taotao\mapper\TbItemParamMapper.class
 guo\ping\taotao\mapper\TbItemCatMapper.class
+guo\ping\taotao\mapper\TbItemMapper.class
+guo\ping\taotao\mapper\TbContentCategoryMapper.class
+guo\ping\taotao\mapper\TbItemDescMapper.class
