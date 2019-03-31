@@ -32,7 +32,7 @@ public class ContentServiceImpl implements ContentService {
         try {
             //把字符串转换成TaotaoResult
             TaotaoResult taotaoResult = TaotaoResult.formatToList(result, TbContent.class);
-            //取内容过关率
+            //取内容列表
             List<TbContent> list = (List<TbContent>) taotaoResult.getData();
             List<Map> resultList = new ArrayList<>();
             //创建一个jsp页面需要的pojo对象

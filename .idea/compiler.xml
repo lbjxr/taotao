@@ -11,6 +11,8 @@
         <module name="taotao-manager-pojo" />
         <module name="taotao-manager-service" />
         <module name="taotao-manager-web" />
+        <module name="taotao-portal" />
+        <module name="taotao-rest" />
         <module name="taotaocommon" />
         <module name="taotaomanagermapper" />
         <module name="taotaomanagerpojo" />
