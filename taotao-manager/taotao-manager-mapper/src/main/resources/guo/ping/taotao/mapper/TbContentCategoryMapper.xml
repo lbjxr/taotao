@@ -34,8 +34,37 @@
     </insert>
 
     <update id="updateContentCategoryById" parameterType="guo.ping.taotao.pojo.TbContentCategory">
-        UPDATE tb_content_category SET parent_id = #{parentId}, name = #{name}, status = #{status},
-        sort_order = #{sortOrder}, is_parent = #{isParent}, updated = #{updated}
+        UPDATE tb_content_category
+        <set>
+            <if test="parentId != null" >
+                parent_id = #{parentId},
+            </if>
+            <if test="name != null" >
+                name = #{name},
+            </if>
+            <if test="status != null">
+                status = #{status},
+            </if>
+             <if test="sortOrder != null">
+                sort_order = #{sortOrder},
+             </if>
+             <if test="isParent">
+                is_parent = #{isParent},
+             </if>
+             <if test="updated">
+                 updated = #{updated},
+             </if>
+        </set>
         WHERE id = #{id}
     </update>
+
+    <delete id="deleteContenCategoryById" parameterType="java.lang.Long">
+        DELETE FROM tb_content_category
+        WHERE id = #{id}
+    </delete>
+
+    <delete id="deleteContenCategoryByParentId" parameterType="java.lang.Long">
+        DELETE FROM tb_content_category
+        WHERE parent_id = #{parentId}
+    </delete>
 </mapper>

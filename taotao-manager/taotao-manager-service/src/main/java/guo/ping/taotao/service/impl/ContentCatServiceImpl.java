@@ -21,6 +21,11 @@ public class ContentCatServiceImpl implements ContentCatService {
     @Autowired
     private TbContentCategoryMapper tbContentCategoryMapper;
 
+    /**
+     * 获取商品分类列表
+     * @param parentId
+     * @return
+     */
     @Override
     public List<EasyUITreeNode> getContentCatList(Long parentId) {
         List<TbContentCategory> categories = tbContentCategoryMapper.selectTbContentCatsByParentId(parentId);
@@ -36,6 +41,12 @@ public class ContentCatServiceImpl implements ContentCatService {
         return nodes;
     }
 
+    /**
+     * 新增一台商品分类
+     * @param parentId
+     * @param name
+     * @return
+     */
     @Override
     public TaotaoResult insertCategory(Long parentId, String name) {
         TbContentCategory contentCategory = new TbContentCategory();
@@ -55,5 +66,36 @@ public class ContentCatServiceImpl implements ContentCatService {
             tbContentCategoryMapper.updateContentCategoryById(parentContentCategory);
         }
         return TaotaoResult.ok(contentCategory.getId());
+    }
+
+    /**
+     * 删除一条分类
+     * @param parentId
+     * @param id
+     * @return
+     */
+    @Override
+    public TaotaoResult deleteCategory(Long parentId, Long id) {
+
+        //查询删除的结点是否为父节点
+        List<TbContentCategory> categoryList = tbContentCategoryMapper.selectTbContentCatsByParentId(id);
+
+        if (categoryList == null || categoryList.size() == 0){
+            //要删除的分类不是父节点，直接删除
+            tbContentCategoryMapper.deleteContenCategoryById(id);
+        }else if (categoryList.size() == 1){
+            //删除的结点不是父节点，且父节点下只有一个子节点。将父节点状态改为0
+            tbContentCategoryMapper.deleteContenCategoryById(id);
+            TbContentCategory contentCategory = new TbContentCategory();
+            contentCategory.setIsParent(false);
+            contentCategory.setUpdated(new Date());
+            contentCategory.setId(parentId);
+            tbContentCategoryMapper.updateContentCategoryById(contentCategory);
+        }else {
+            //删除的分类是父节点，删除下面的所有结点
+            tbContentCategoryMapper.deleteContenCategoryByParentId(parentId);
+        }
+
+        return TaotaoResult.ok();
     }
 }
