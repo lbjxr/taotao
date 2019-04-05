@@ -88,6 +88,7 @@ public class JedisTest {
 				new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
 		JedisCluster jedisCluster = (JedisCluster) applicationContext.getBean("redisClient");
 
+		jedisCluster.set("key1", "hello Redis1");
 		String str = jedisCluster.get("key1");
 		System.out.println(str);
 		jedisCluster.close();
