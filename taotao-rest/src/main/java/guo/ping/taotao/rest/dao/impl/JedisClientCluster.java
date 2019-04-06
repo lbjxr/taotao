@@ -1,4 +1,4 @@
-package guo.ping.taotao.rest.dao.Impl;
+package guo.ping.taotao.rest.dao.impl;
 
 import guo.ping.taotao.rest.dao.JedisClient;
 import org.springframework.beans.factory.annotation.Autowired;
