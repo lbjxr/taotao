@@ -26,7 +26,7 @@
 <jsp:include page="commons/shortcut.jsp" />
 <!--shortcut end-->
 <div class="w" id="headers">
-		<div id="logo"><a href="http://www.jd.com/"><img alt="淘淘商城" src="/images/taotao-logo.gif"></a></div>
+		<div id="logo"><a href="http://www.jd.com/"><img alt="淘淘商城" src="/image/taotao-logo.gif"></a></div>
 		<ul class="step" id="step3">
 			<li class="fore1">1.我的购物车<b></b></li>
 			<li class="fore2">2.填写核对订单信息<b></b></li>

@@ -25,7 +25,7 @@
 <!--shortcut end-->
 
 <div class="w w1 header clearfix">
-    <div id="logo"><a href="/"><img src="/images/taotao-logo.gif" alt="淘淘商城"></a></div>
+    <div id="logo"><a href="/"><img src="/image/taotao-logo.gif" alt="淘淘商城"></a></div>
 </div>
 
 <form id="orderForm" class="hide" action="/order/create.html" method="post">
@@ -37,7 +37,7 @@
 			<input type="hidden" name="orderItems[${status.index}].price" value="${cart.price}"/>
 			<input type="hidden" name="orderItems[${status.index}].totalFee" value="${cart.price * cart.cartItemNum}"/>
 			<input type="hidden" name="orderItems[${status.index}].title" value="${cart.title}"/>
-			<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.images[0]}"/>
+			<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.image[0]}"/>
 		</c:forEach>
 		<input type="hidden" name="payment" value="<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${totalPrice/100 }"/>"/>
 		<input type="hidden" name="postFee" value="0"/>
@@ -189,7 +189,7 @@
 
 			<div class="p-img">
 				<a target="_blank" href="/item/${cart.id}.html">
-					<img src="${cart.images[0]}" alt="">
+					<img src="${cart.image[0]}" alt="">
 				</a>
 			</div>
 			<div class="goods-msg">

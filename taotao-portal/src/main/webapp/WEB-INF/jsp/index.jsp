@@ -38,7 +38,7 @@
     if ( !cfg.DATA_MSlide ) {
         cfg.DATA_MSlide=[];
     }
-    //var data = [{"srcB":"http://image.taotao.com/images/2015/03/03/2015030304360302109345.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/images/2015/03/03/2015030304360302109345.jpg","widthB":550,"href":"http://sale.jd.com/act/e0FMkuDhJz35CNt.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/images/2015/03/03/2015030304353109508500.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/images/2015/03/03/2015030304353109508500.jpg","widthB":550,"href":"http://sale.jd.com/act/UMJaAPD2VIXkZn.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/images/2015/03/03/2015030304345761102862.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/images/2015/03/03/2015030304345761102862.jpg","widthB":550,"href":"http://sale.jd.com/act/UMJaAPD2VIXkZn.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/images/2015/03/03/201503030434200950530.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/images/2015/03/03/201503030434200950530.jpg","widthB":550,"href":"http://sale.jd.com/act/kj2pmwMuYCrGsK3g.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/images/2015/03/03/2015030304333327002286.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/images/2015/03/03/2015030304333327002286.jpg","widthB":550,"href":"http://sale.jd.com/act/xcDvNbzAqK0CoG7I.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/images/2015/03/03/2015030304324649807137.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/images/2015/03/03/2015030304324649807137.jpg","widthB":550,"href":"http://sale.jd.com/act/eDpBF1s8KcTOYM.html?cpdad=1DLSUE","heightB":240}];
+    //var data = [{"srcB":"http://image.taotao.com/image/2015/03/03/2015030304360302109345.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/image/2015/03/03/2015030304360302109345.jpg","widthB":550,"href":"http://sale.jd.com/act/e0FMkuDhJz35CNt.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/image/2015/03/03/2015030304353109508500.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/image/2015/03/03/2015030304353109508500.jpg","widthB":550,"href":"http://sale.jd.com/act/UMJaAPD2VIXkZn.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/image/2015/03/03/2015030304345761102862.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/image/2015/03/03/2015030304345761102862.jpg","widthB":550,"href":"http://sale.jd.com/act/UMJaAPD2VIXkZn.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/image/2015/03/03/201503030434200950530.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/image/2015/03/03/201503030434200950530.jpg","widthB":550,"href":"http://sale.jd.com/act/kj2pmwMuYCrGsK3g.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/image/2015/03/03/2015030304333327002286.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/image/2015/03/03/2015030304333327002286.jpg","widthB":550,"href":"http://sale.jd.com/act/xcDvNbzAqK0CoG7I.html?cpdad=1DLSUE","heightB":240},{"srcB":"http://image.taotao.com/image/2015/03/03/2015030304324649807137.jpg","height":240,"alt":"","width":670,"src":"http://image.taotao.com/image/2015/03/03/2015030304324649807137.jpg","widthB":550,"href":"http://sale.jd.com/act/eDpBF1s8KcTOYM.html?cpdad=1DLSUE","heightB":240}];
 	var data = ${ad1};
 
     cfg.DATA_MSlide = data;
@@ -169,7 +169,7 @@ pageConfig.DATA_MScroll =[
         x = pageConfig.FN_GetCompatibleData(a[i]);
         e.push("<li class=\"item\"><a href=\"");
         e.push(x.href);
-        e.push("\"><img src=\"/images/blank.gif\" style=\"background:url(");
+        e.push("\"><img src=\"/image/blank.gif\" style=\"background:url(");
         e.push(x.src);
         e.push(") no-repeat #fff center 0;\" alt=\"");
         e.push(x.alt);
@@ -193,7 +193,7 @@ pageConfig.DATA_MScroll =[
 	            {
 	                "width": 310,
 	                "height": 70,
-	                "src": "/images/5440ce68Na00d019e.jpg",
+	                "src": "/image/5440ce68Na00d019e.jpg",
 	                "href": "http://c.fa.jd.com/adclick?sid=2&cid=601&aid=3614&bid=4196&unit=35984&advid=109277&guv=&url=http://sale.jd.com/mall/FQLUNlG53wbX7m.html",
 	                "alt": "",
 	                "widthB": 210,
@@ -290,7 +290,7 @@ pageConfig.DATA_MScroll =[
 <span clstag="homepage|keycount|home2013|18b">
 <!-- 广告信息 -->
 	<a target="_blank" title="" href="http://c.fa.jd.com/adclick?sid=2&cid=601&aid=3624&bid=0&unit=35989&advid=105087&guv=&url=http://sale.jd.com/act/PzKvRu4Ld5YnG1Ej.html">
-		<img data-img="2" data-lazyload="/images/543b4d75N686689d7.jpg" width="209" height="155" alt="" />
+		<img data-img="2" data-lazyload="/image/543b4d75N686689d7.jpg" width="209" height="155" alt="" />
 	</a>
 </span>
 </div>

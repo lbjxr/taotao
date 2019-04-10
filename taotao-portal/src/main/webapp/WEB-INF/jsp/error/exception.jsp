@@ -27,7 +27,7 @@
 <body id="mainframe">
 	<div class="w w1 header clearfix">
 		<div id="logo">
-			<a href="/"><img src="/images/taotao-logo.gif" alt="淘淘商城"></a>
+			<a href="/"><img src="/image/taotao-logo.gif" alt="淘淘商城"></a>
 		</div>
 	</div>
 
@@ -41,7 +41,7 @@
 	width: 750px;
 	height: 220px;
 	background:
-		url(/images/errordog.jpg)
+		url(/image/errordog.jpg)
 		0 0;
 	position: relative
 }
