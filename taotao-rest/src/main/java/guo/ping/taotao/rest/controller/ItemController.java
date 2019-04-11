@@ -20,8 +20,8 @@ public class ItemController {
 
 	@RequestMapping("/info/{itemId}")
 	@ResponseBody
-	public TaotaoResult getItemBaseInfo(@PathVariable Long id){
-		TaotaoResult result = itemService.getItemBaseInfo(id);
+	public TaotaoResult getItemBaseInfo(@PathVariable Long itemId){
+		TaotaoResult result = itemService.getItemBaseInfo(itemId);
 		return result;
 	}
 
