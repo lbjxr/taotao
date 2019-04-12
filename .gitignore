@@ -31,8 +31,8 @@ target/
 
 #system ignore
 .DS_Store
-<<<<<<< HEAD
 Thumbs.db
-=======
-Thumbs.db
->>>>>>> origin/LBJ
+
+#log ignore
+*.log.*
+*.log
