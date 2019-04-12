@@ -109,8 +109,8 @@ public class ItemServiceImpl implements ItemService {
 		try {
 			String json = jedisClient.get(REDIS_ITEM_KEY + ":" + itemId + ":param");
 			if (!StringUtils.isBlank(json)){
-				TbItemParam tbItemParam = JsonUtils.jsonToPojo(json, TbItemParam.class);
-				return TaotaoResult.ok(tbItemParam);
+				TbItemParamItem tbItemParamItem = JsonUtils.jsonToPojo(json, TbItemParamItem.class);
+				return TaotaoResult.ok(tbItemParamItem);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
