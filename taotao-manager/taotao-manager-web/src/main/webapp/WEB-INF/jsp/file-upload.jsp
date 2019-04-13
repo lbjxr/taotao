@@ -8,7 +8,7 @@
 <![endif]-->
 <meta charset="utf-8">
 <title>jQuery File Upload Demo</title>
-<meta name="description" content="File Upload widget with multiple file selection, drag&amp;drop support, progress bars, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads and client-side image resizing. Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML form file uploads.">
+<meta name="description" content="File Upload widget with multiple file selection, drag&amp;drop support, progress bars, validation and preview image, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads and client-side image resizing. Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML form file uploads.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Bootstrap styles -->
 <link rel="stylesheet" href="/js/file-upload/bootstrap-3.2.0/css/bootstrap.min.css">
@@ -169,7 +169,7 @@
 <script src="/js/file-upload/vendor/jquery.ui.widget.js"></script>
 <!-- The Templates plugin is included to render the upload/download listings -->
 <script src="/js/file-upload/tmpl.min.js"></script>
-<!-- The Load Image plugin is included for the preview images and image resizing functionality -->
+<!-- The Load Image plugin is included for the preview image and image resizing functionality -->
 <script src="/js/file-upload/load-image.all.min.js"></script>
 <!-- The Canvas to Blob plugin is included for image resizing functionality -->
 <script src="/js/file-upload/canvas-to-blob.min.js"></script>
