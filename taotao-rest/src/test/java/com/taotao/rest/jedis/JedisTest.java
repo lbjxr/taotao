@@ -13,7 +13,6 @@ import java.util.HashSet;
 
 public class JedisTest {
 
-	@Test
 	public void testJedisSingle(){
 		//创建一个jedis对象
 		Jedis jedis = new Jedis("192.168.142.129", 6379);
@@ -28,7 +27,6 @@ public class JedisTest {
 	/**
 	 * 使用连接池
 	 */
-	@Test
 	public void testJedisPool(){
 		//创建jedis连接池
 		JedisPool jedisPool = new JedisPool("192.168.142.129", 6379);
@@ -43,7 +41,6 @@ public class JedisTest {
 	/**
 	 * 集群版测试
 	 */
-	@Test
 	public void testJedisCluster() throws IOException {
 		HashSet<HostAndPort> nodes = new HashSet<>();
 		nodes.add(new HostAndPort("192.168.142.129", 7001));
@@ -65,7 +62,6 @@ public class JedisTest {
 	/**
 	 * 单机版spring jedis测试
 	 */
-	@Test
 	public void testSpringJedisSingle(){
 		ApplicationContext applicationContext =
 				new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
@@ -82,7 +78,6 @@ public class JedisTest {
 	/**
 	 * 集群版测试
 	 */
-	@Test
 	public void testSpringJedisCluster() throws IOException {
 		ApplicationContext applicationContext =
 				new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");

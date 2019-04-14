@@ -16,9 +16,6 @@
 
     <packaging>pom</packaging>
 
-    <name>taotao-parent</name>
-    <url>http://www.taotao.com</url>
-
     <!-- 集中定义依赖版本号 -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

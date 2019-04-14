@@ -42,6 +42,8 @@ public class ItemServiceImpl implements ItemService {
     private String ITEM_DESC_URL;
     @Value("${ITEM_PARAM_URL}")
     private String ITEM_PARAM_URL;
+    @Value("${REST_ITEM_SYNC_URL}")
+    private String REST_ITEM_SYNC_URL;
 
 
     @Override
@@ -94,6 +96,7 @@ public class ItemServiceImpl implements ItemService {
         return TaotaoResult.ok();
     }
 
+    @Override
     public TbItemDesc getItemDesc(Long itemId){
         try {
             String json = HttpClientUtil.doGet(REST_BASE_URL + ITEM_DESC_URL + itemId);
@@ -113,11 +116,17 @@ public class ItemServiceImpl implements ItemService {
     @Override
     public TaotaoResult updateItem(TbItem item, String desc) {
 
-        System.out.println("\n==================\nitem = " + item.getId());
-        System.out.println("\n==================\ndesc = " + desc);
         //更新商品信息
         item.setUpdated(new Date());
         tbItemMapper.update(item);
+
+        //同步更新redis缓存
+        try {
+            System.out.println("\n==================\nitem = " + item.getId());
+            HttpClientUtil.doGet(REST_BASE_URL + REST_ITEM_SYNC_URL + item.getId() + "/info");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         //更新商品描述信息
         TbItemDesc tbItemDesc = new TbItemDesc();
@@ -126,6 +135,12 @@ public class ItemServiceImpl implements ItemService {
         tbItemDesc.setUpdated(new Date());
         tbItemDescMapper.update(tbItemDesc);
 
+        try {
+            System.out.println("\n================\n" + REST_BASE_URL + REST_ITEM_SYNC_URL + item.getId() + "/desc");
+            HttpClientUtil.doGet(REST_BASE_URL + REST_ITEM_SYNC_URL + item.getId() + "/desc");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return TaotaoResult.ok();
     }
 }

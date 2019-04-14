@@ -90,7 +90,7 @@ public class ItemServiceImpl implements ItemService {
 		TbItemDesc tbItemDesc = tbItemDescMapper.selectItemDescByPrimaryKey(itemId);
 		try {
 			jedisClient.set(REDIS_ITEM_KEY + ":" + itemId + ":desc", JsonUtils.objectToJson(tbItemDesc));
-			jedisClient.expire(REDIS_ITEM_KEY + ":" + itemId + ":base", REDIS_ITEM_EXPIRE);
+			jedisClient.expire(REDIS_ITEM_KEY + ":" + itemId + ":desc", REDIS_ITEM_EXPIRE);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

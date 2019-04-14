@@ -5,4 +5,6 @@ import guo.ping.taotao.common.pojo.TaotaoResult;
 public interface RedisService {
 
 	TaotaoResult syncContent(long contentCid);
+
+	TaotaoResult syncItem(long itemId, String lastParam);
 }

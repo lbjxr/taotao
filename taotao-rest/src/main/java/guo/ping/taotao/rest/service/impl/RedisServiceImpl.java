@@ -15,6 +15,8 @@ public class RedisServiceImpl implements RedisService {
 	private JedisClient jedisClient;
 	@Value("${INDEX_CONTENT_REDIS_KEY}")
 	private String INDEX_CONTENT_REDIS_KEY;
+	@Value("${REDIS_ITEM_KEY}")
+	private String REDIS_ITEM_KEY;
 
 	@Override
 	public TaotaoResult syncContent(long contentCid) {
@@ -26,4 +28,15 @@ public class RedisServiceImpl implements RedisService {
 		}
 		return TaotaoResult.ok();
 	}
+
+	public TaotaoResult syncItem(long itemId, String lastParam){
+		try {
+			jedisClient.del(REDIS_ITEM_KEY + ":" + itemId + ":" + lastParam);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
+		}
+		return TaotaoResult.ok();
+	}
+
 }

@@ -24,4 +24,10 @@ public class RedisController {
 		return result;
 	}
 
+	@RequestMapping("/item/{itemId}/{lastParam}")
+	@ResponseBody
+	public TaotaoResult itemCacheSync(@PathVariable Long itemId, @PathVariable String lastParam){
+		TaotaoResult result = redisService.syncItem(itemId, lastParam);
+		return result;
+	}
 }
