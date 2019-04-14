@@ -1,14 +1,12 @@
 package guo.ping.taotao.controller;
 
 import guo.ping.taotao.common.pojo.TaotaoResult;
+import guo.ping.taotao.pojo.TbItem;
 import guo.ping.taotao.pojo.TbItemDesc;
 import guo.ping.taotao.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 //@RequestMapping("/rest/page")
@@ -17,12 +15,17 @@ public class ItemEditController {
 	@Autowired
 	private ItemService itemService;
 
-//	@RequestMapping("/item-edit/{_}")
-	@RequestMapping(value = "/rest/page/item-edit")
+	@RequestMapping("/rest/item/query/item/desc/{itemId}")
 	@ResponseBody
-	public TaotaoResult getItemDesc(@RequestParam(value = "_") long itemId){
-		System.out.println("\nitemid  " + itemId);
+	public TaotaoResult getItemDescById(@PathVariable long itemId){
 		TbItemDesc tbItemDesc = itemService.getItemDesc(itemId);
 		return TaotaoResult.ok(tbItemDesc);
+	}
+
+	@RequestMapping(value = "/rest/item/update", method = RequestMethod.POST)
+	@ResponseBody
+	public TaotaoResult updateItem(TbItem tbItem, String desc){
+		itemService.updateItem(tbItem, desc);
+		return TaotaoResult.ok();
 	}
 }

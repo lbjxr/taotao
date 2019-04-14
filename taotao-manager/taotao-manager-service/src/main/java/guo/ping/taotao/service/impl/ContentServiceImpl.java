@@ -22,10 +22,10 @@ public class ContentServiceImpl implements ContentService {
     @Autowired
     private TbContentMapper tbContentMapper;
 
-    @Value("{REST_BASE_URL}")
+    @Value("${REST_BASE_URL}")
     private String REST_BASE_URL;
 
-    @Value("{REST_CONTENT_SYNC_URL}")
+    @Value("${REST_CONTENT_SYNC_URL}")
     private String REST_CONTENT_SYNC_URL;
 
     @Override

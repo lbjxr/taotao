@@ -2,8 +2,10 @@ package guo.ping.taotao.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.sun.deploy.net.HttpUtils;
 import guo.ping.taotao.common.pojo.EasyUIDataGridResult;
 import guo.ping.taotao.common.pojo.TaotaoResult;
+import guo.ping.taotao.common.utils.HttpClientUtil;
 import guo.ping.taotao.common.utils.IDUtils;
 import guo.ping.taotao.mapper.TbItemDescMapper;
 import guo.ping.taotao.mapper.TbItemMapper;
@@ -13,7 +15,10 @@ import guo.ping.taotao.pojo.TbItemDesc;
 import guo.ping.taotao.pojo.TbItemParam;
 import guo.ping.taotao.pojo.TbItemParamItem;
 import guo.ping.taotao.service.ItemService;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.http.client.utils.HttpClientUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -28,6 +33,15 @@ public class ItemServiceImpl implements ItemService {
     private TbItemDescMapper tbItemDescMapper;
     @Autowired
     private TbItemParamItemMapper tbItemParamItemMapper;
+
+    @Value("${REST_BASE_URL}")
+    private String REST_BASE_URL;
+    @Value("${ITME_INFO_URL}")
+    private String ITME_INFO_URL;
+    @Value("${ITEM_DESC_URL}")
+    private String ITEM_DESC_URL;
+    @Value("${ITEM_PARAM_URL}")
+    private String ITEM_PARAM_URL;
 
 
     @Override
@@ -76,6 +90,41 @@ public class ItemServiceImpl implements ItemService {
         tbItemParamItem.setCreated(date);
         tbItemParamItem.setUpdated(date);
         tbItemParamItemMapper.insert(tbItemParamItem);
+
+        return TaotaoResult.ok();
+    }
+
+    public TbItemDesc getItemDesc(Long itemId){
+        try {
+            String json = HttpClientUtil.doGet(REST_BASE_URL + ITEM_DESC_URL + itemId);
+            if (!StringUtils.isBlank(json)){
+                TaotaoResult taotaoResult = TaotaoResult.formatToPojo(json, TbItemDesc.class);
+                if (taotaoResult.getStatus() == 200){
+                    TbItemDesc itemDesc = (TbItemDesc) taotaoResult.getData();
+                    return itemDesc;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    @Override
+    public TaotaoResult updateItem(TbItem item, String desc) {
+
+        System.out.println("\n==================\nitem = " + item.getId());
+        System.out.println("\n==================\ndesc = " + desc);
+        //更新商品信息
+        item.setUpdated(new Date());
+        tbItemMapper.update(item);
+
+        //更新商品描述信息
+        TbItemDesc tbItemDesc = new TbItemDesc();
+        tbItemDesc.setItemId(item.getId());
+        tbItemDesc.setItemDesc(desc);
+        tbItemDesc.setUpdated(new Date());
+        tbItemDescMapper.update(tbItemDesc);
 
         return TaotaoResult.ok();
     }

@@ -28,4 +28,16 @@
         (id, title, sell_point, price, num, barcode, image, cid, created, updated)
         VALUES (#{id}, #{title}, #{sellPoint}, #{price}, #{num}, #{barcode}, #{image}, #{cid}, #{created}, #{updated})
     </insert>
+    <update id="update" parameterType="guo.ping.taotao.pojo.TbItem">
+        update tb_item set
+        title = #{title},
+        sell_point = #{sellPoint},
+        price =  #{price},
+        num = #{num},
+        barcode = #{barcode},
+        image = #{image},
+        cid =  #{cid},
+        updated = #{updated}
+        where id = #{id}
+    </update>
 </mapper>

@@ -38,5 +38,4 @@ public class ItemController {
 		TaotaoResult result = itemService.getItemParamByItemId(itemId);
 		return result;
 	}
-
 }
