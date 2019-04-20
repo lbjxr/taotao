@@ -1,21 +1,33 @@
 package com.taotao.sso.service.impl;
 
+import com.taotao.sso.dao.JedisClient;
 import com.taotao.sso.service.UserService;
 import guo.ping.taotao.common.pojo.TaotaoResult;
+import guo.ping.taotao.common.utils.JsonUtils;
 import guo.ping.taotao.mapper.TbUserMapper;
 import guo.ping.taotao.pojo.TbUser;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class UserServiceImpl implements UserService {
 
 	@Autowired
 	private TbUserMapper tbUserMapper;
+
+	@Autowired
+	private JedisClient jedisClient;
+
+	@Value("${REDIS_USER_SESSION_KEY}")
+	private String REDIS_USER_SESSION_KEY;
+	@Value("${SSO_SESSION_EXPIRE}")
+	private Integer SSO_SESSION_EXPIRE;
 
 	/**
 	 * 数据校验是否可用
@@ -61,5 +73,36 @@ public class UserServiceImpl implements UserService {
 		user.setPassword(DigestUtils.md5DigestAsHex(user.getPassword().getBytes()));
 		tbUserMapper.insert(user);
 		return TaotaoResult.ok();
+	}
+
+	/**
+	 * 用户登录
+	 * @param username
+	 * @param password
+	 * @return
+	 */
+	@Override
+	public TaotaoResult userLogin(String username, String password) {
+		List<TbUser> userList = tbUserMapper.selectByUsername(username);
+		//如果没有此用户名
+		if (null == userList || userList.size() == 0){
+			return TaotaoResult.build(400, "用户名或密码错误");
+		}
+		TbUser user = userList.get(0);
+		//比对密码
+		//密码错误
+		if (!DigestUtils.md5DigestAsHex(password.getBytes()).equals(user.getPassword())){
+			return TaotaoResult.build(400, "用户名或密码错误");
+		}
+
+		//用户名和密码正确，生成token
+		String token = UUID.randomUUID().toString();
+		//将用户信息写入redis
+		//清空用户密码
+		user.setPassword(null);
+		jedisClient.set(REDIS_USER_SESSION_KEY + ":" + token, JsonUtils.objectToJson(user));
+		//设置session过期时间
+		jedisClient.expire(REDIS_USER_SESSION_KEY + ":" + token, SSO_SESSION_EXPIRE);
+		return TaotaoResult.ok(token);
 	}
 }
