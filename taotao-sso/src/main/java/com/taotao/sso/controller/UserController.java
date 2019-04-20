@@ -3,6 +3,7 @@ package com.taotao.sso.controller;
 import com.taotao.sso.service.UserService;
 import guo.ping.taotao.common.pojo.TaotaoResult;
 import guo.ping.taotao.common.utils.ExceptionUtil;
+import guo.ping.taotao.pojo.TbUser;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.converter.json.MappingJacksonValue;
@@ -21,6 +22,13 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
+	/**
+	 * 数据校验是否可用
+	 * @param param
+	 * @param type
+	 * @param callback
+	 * @return
+	 */
 	@RequestMapping("/check/{param}/{type}")
 	@ResponseBody
 	public Object checkData(@PathVariable String param, @PathVariable Integer type, String callback){
@@ -59,6 +67,17 @@ public class UserController {
 			return mappingJacksonValue;
 		}else {
 			return result;
+		}
+	}
+
+	@RequestMapping("/register")
+	@ResponseBody
+	public TaotaoResult createUser(TbUser user){
+		try {
+			TaotaoResult result = userService.createUser(user);
+			return result;
+		} catch (Exception e) {
+			return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
 		}
 	}
 }
