@@ -71,6 +71,11 @@ public class UserController {
 		}
 	}
 
+	/**
+	 * 用户注册
+	 * @param user
+	 * @return
+	 */
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
 	@ResponseBody
 	public TaotaoResult createUser(TbUser user){
@@ -82,6 +87,12 @@ public class UserController {
 		}
 	}
 
+	/**
+	 * 用户登录
+	 * @param username
+	 * @param password
+	 * @return
+	 */
 	@RequestMapping(value = "/login",method = RequestMethod.POST)
 	@ResponseBody
 	public TaotaoResult userLogin(String username, String password){
@@ -90,6 +101,32 @@ public class UserController {
 			return result;
 		} catch (Exception e) {
 			return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
+		}
+	}
+
+	/**
+	 * 获取用户信息
+	 * @param token
+	 * @param callback
+	 * @return
+	 */
+	@RequestMapping("/token/{token}")
+	@ResponseBody
+	public Object getUserByToken(@PathVariable String token, String callback){
+		TaotaoResult result = null;
+		try {
+			result = userService.getUserByToken(token);
+		} catch (Exception e) {
+			return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
+		}
+
+		//判断是否为json调用
+		if (StringUtils.isBlank(callback)){
+			return result;
+		}else {
+			MappingJacksonValue mappingJacksonValue = new MappingJacksonValue(result);
+			mappingJacksonValue.setJsonpFunction(callback);
+			return mappingJacksonValue;
 		}
 	}
 }
