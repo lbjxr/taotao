@@ -35,7 +35,6 @@ Thumbs.db
 
 #log ignore
 *.log.*
-src/
 taotao-manager/taotao-manager-web/src/test/
 taotao-search/src/test/
 taotao-sso/src/test/
