@@ -5,6 +5,7 @@ import guo.ping.taotao.common.pojo.TaotaoResult;
 import guo.ping.taotao.common.utils.ExceptionUtil;
 import guo.ping.taotao.pojo.TbUser;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.converter.json.MappingJacksonValue;
 import org.springframework.stereotype.Controller;
@@ -12,6 +13,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * 用户相关controller
@@ -95,9 +99,10 @@ public class UserController {
 	 */
 	@RequestMapping(value = "/login",method = RequestMethod.POST)
 	@ResponseBody
-	public TaotaoResult userLogin(String username, String password){
+	public TaotaoResult userLogin(String username, String password,
+								  HttpServletRequest request, HttpServletResponse response){
 		try {
-			TaotaoResult result = userService.userLogin(username, password);
+			TaotaoResult result = userService.userLogin(username, password, request, response);
 			return result;
 		} catch (Exception e) {
 			return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));

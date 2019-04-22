@@ -3,6 +3,7 @@ package com.taotao.sso.service.impl;
 import com.taotao.sso.dao.JedisClient;
 import com.taotao.sso.service.UserService;
 import guo.ping.taotao.common.pojo.TaotaoResult;
+import guo.ping.taotao.common.utils.CookieUtils;
 import guo.ping.taotao.common.utils.JsonUtils;
 import guo.ping.taotao.mapper.TbUserMapper;
 import guo.ping.taotao.pojo.TbUser;
@@ -12,6 +13,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -83,7 +86,8 @@ public class UserServiceImpl implements UserService {
 	 * @return
 	 */
 	@Override
-	public TaotaoResult userLogin(String username, String password) {
+	public TaotaoResult userLogin(String username, String password,
+								  HttpServletRequest request, HttpServletResponse response) {
 		List<TbUser> userList = tbUserMapper.selectByUsername(username);
 		//如果没有此用户名
 		if (null == userList || userList.size() == 0){
@@ -104,6 +108,10 @@ public class UserServiceImpl implements UserService {
 		jedisClient.set(REDIS_USER_SESSION_KEY + ":" + token, JsonUtils.objectToJson(user));
 		//设置session过期时间
 		jedisClient.expire(REDIS_USER_SESSION_KEY + ":" + token, SSO_SESSION_EXPIRE);
+
+		//添加写cookie的逻辑,有效期是关闭浏览器失效
+		CookieUtils.setCookie(request, response, "TT_TOKEN", token);
+
 		return TaotaoResult.ok(token);
 	}
 
