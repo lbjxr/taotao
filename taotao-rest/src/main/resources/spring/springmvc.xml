@@ -11,5 +11,4 @@
     <context:component-scan base-package="guo.ping.taotao.rest.controller" />
     <!-- 配置注解驱动 -->
     <mvc:annotation-driven/>
-
 </beans>
