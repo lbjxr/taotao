@@ -13,7 +13,7 @@ public class UserServiceImpl implements UserService {
 
 	@Value("${SSO_BASE_URL}")
 	public String SSO_BASE_URL;
-	@Value("${SSO_USER_TOEKN}")
+	@Value("${SSO_USER_TOKEN}")
 	private String SSO_USER_TOEKN;
 	@Value("${SSO_PAGE_LOGIN}")
 	public String SSO_PAGE_LOGIN;
