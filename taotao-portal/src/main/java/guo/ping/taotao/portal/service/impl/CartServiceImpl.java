@@ -7,7 +7,6 @@ import guo.ping.taotao.common.utils.JsonUtils;
 import guo.ping.taotao.pojo.TbItem;
 import guo.ping.taotao.portal.pojo.CartItem;
 import guo.ping.taotao.portal.service.CartService;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -67,6 +66,12 @@ public class CartServiceImpl implements CartService {
 		CookieUtils.setCookie(request, response, "TT_CART", JsonUtils.objectToJson(itemList), true);
 
 		return TaotaoResult.ok();
+	}
+
+	@Override
+	public List<CartItem> getCartItemList(HttpServletRequest request, HttpServletResponse response) {
+		List<CartItem> itemList = getCartItemList(request);
+		return itemList;
 	}
 
 	/**
