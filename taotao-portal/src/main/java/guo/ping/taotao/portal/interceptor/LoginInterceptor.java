@@ -21,7 +21,7 @@ public class LoginInterceptor implements HandlerInterceptor {
 	public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
 		//在Handler之前处理
 		//从cookie获取用户的token
-		String token = CookieUtils.getCookieValue(httpServletRequest, "TT_TOKRN");
+		String token = CookieUtils.getCookieValue(httpServletRequest, "TT_TOKEN");
 		TbUser user = userService.getUserByToken(token);
 		//用户信息为空
 		if (null == user){

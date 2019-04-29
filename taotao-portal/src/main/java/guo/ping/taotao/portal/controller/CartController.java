@@ -34,7 +34,7 @@ public class CartController {
 
 	@RequestMapping("/success")
 	public String showSuccess(){
-		return "cartSuccess";
+		return "cart-success";
 	}
 
 	@RequestMapping("/cart")
@@ -42,5 +42,12 @@ public class CartController {
 		List<CartItem> list = cartService.getCartItemList(request, response);
 		model.addAttribute("cartList", list);
 		return "cart";
+	}
+
+	@RequestMapping("/delete/{itemId}")
+	public String deleteItem(@PathVariable Long itemId,
+							 HttpServletRequest request, HttpServletResponse response){
+		TaotaoResult result = cartService.deleteCartItem(itemId, request, response);
+		return "redirect:/cart/cart.html";
 	}
 }

@@ -11,4 +11,5 @@ import java.util.List;
 public interface CartService {
 	TaotaoResult addCartItem(Long itemId, int num, HttpServletRequest request, HttpServletResponse response);
 	List<CartItem> getCartItemList(HttpServletRequest request, HttpServletResponse response);
+	TaotaoResult deleteCartItem(Long cartId, HttpServletRequest request, HttpServletResponse response);
 }

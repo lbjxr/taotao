@@ -14,14 +14,14 @@ public class UserServiceImpl implements UserService {
 	@Value("${SSO_BASE_URL}")
 	public String SSO_BASE_URL;
 	@Value("${SSO_USER_TOKEN}")
-	private String SSO_USER_TOEKN;
+	private String SSO_USER_TOKEN;
 	@Value("${SSO_PAGE_LOGIN}")
 	public String SSO_PAGE_LOGIN;
 
 	@Override
 	public TbUser getUserByToken(String token) {
 		//调用sso服务，更加token获取用户信息
-		String json = HttpClientUtil.doGet(SSO_BASE_URL + SSO_USER_TOEKN + token);
+		String json = HttpClientUtil.doGet(SSO_BASE_URL + SSO_USER_TOKEN + token);
 		//把json转为TaotaoResult
 		TaotaoResult taotaoResult = TaotaoResult.formatToPojo(json, TbUser.class);
 		if (taotaoResult.getStatus() == 200){

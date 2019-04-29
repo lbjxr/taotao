@@ -68,10 +68,37 @@ public class CartServiceImpl implements CartService {
 		return TaotaoResult.ok();
 	}
 
+	/**
+	 * 获取购物车列表
+	 * @param request
+	 * @param response
+	 * @return
+	 */
 	@Override
 	public List<CartItem> getCartItemList(HttpServletRequest request, HttpServletResponse response) {
 		List<CartItem> itemList = getCartItemList(request);
 		return itemList;
+	}
+
+	/**
+	 * 删除购物车商品
+	 * @param cartId
+	 * @return
+	 */
+	@Override
+	public TaotaoResult deleteCartItem(Long cartId, HttpServletRequest request, HttpServletResponse response) {
+		//从cookie中获取购物车商品列表
+		List<CartItem> itemList = getCartItemList(request);
+		//从列表中找到此商品
+		for (CartItem item : itemList){
+			if (item.getId() == cartId){
+				itemList.remove(item);
+				break;
+			}
+		}
+		//把处理后的购物车列表写会cookie
+		CookieUtils.setCookie(request, response, "TT_CART", JsonUtils.objectToJson(itemList), true);
+		return TaotaoResult.ok();
 	}
 
 	/**
