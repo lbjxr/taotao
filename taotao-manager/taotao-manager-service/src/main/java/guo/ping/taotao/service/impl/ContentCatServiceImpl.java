@@ -53,7 +53,8 @@ public class ContentCatServiceImpl implements ContentCatService {
         contentCategory.setName(name);
         contentCategory.setParentId(parentId);
         contentCategory.setIsParent(false);
-        contentCategory.setStatus(1);  // 1正常 2删除
+        // 1正常 2删除
+        contentCategory.setStatus(1);
         contentCategory.setSortOrder(1);
         contentCategory.setCreated(new Date());
         contentCategory.setUpdated(new Date());

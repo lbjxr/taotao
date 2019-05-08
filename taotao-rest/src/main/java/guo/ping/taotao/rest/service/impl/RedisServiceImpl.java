@@ -29,6 +29,7 @@ public class RedisServiceImpl implements RedisService {
 		return TaotaoResult.ok();
 	}
 
+	@Override
 	public TaotaoResult syncItem(long itemId, String lastParam){
 		try {
 			jedisClient.del(REDIS_ITEM_KEY + ":" + itemId + ":" + lastParam);
