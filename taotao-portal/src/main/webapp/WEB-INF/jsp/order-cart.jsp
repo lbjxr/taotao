@@ -31,13 +31,13 @@
 <form id="orderForm" class="hide" action="/order/create.html" method="post">
 		<input type="hidden" name="paymentType" value="1"/>
 		<c:forEach items="${cartList }" var="cart" varStatus="status">
-			<c:set var="totalPrice"  value="${ totalPrice + (cart.price * cart.cartItemNum)}"/>
+			<c:set var="totalPrice"  value="${ totalPrice + (cart.price * cart.num)}"/>
 			<input type="hidden" name="orderItems[${status.index}].itemId" value="${cart.id}"/>
-			<input type="hidden" name="orderItems[${status.index}].cartItemNum" value="${cart.cartItemNum }"/>
+			<input type="hidden" name="orderItems[${status.index}].cartItemNum" value="${cart.num }"/>
 			<input type="hidden" name="orderItems[${status.index}].price" value="${cart.price}"/>
-			<input type="hidden" name="orderItems[${status.index}].totalFee" value="${cart.price * cart.cartItemNum}"/>
+			<input type="hidden" name="orderItems[${status.index}].totalFee" value="${cart.price * cart.num}"/>
 			<input type="hidden" name="orderItems[${status.index}].title" value="${cart.title}"/>
-			<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.image[0]}"/>
+			<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.image}"/>
 		</c:forEach>
 		<input type="hidden" name="payment" value="<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${totalPrice/100 }"/>"/>
 		<input type="hidden" name="postFee" value="0"/>
@@ -184,12 +184,12 @@
      <!--配送方式-->
     <h4 class="vendor_name_h" id="0">商家：淘淘商城</h4>		         
     <div class="goods-suit goods-last">
-	 <c:forEach items="${cartList }" var="cart">
+	 <c:forEach items="${cartList}" var="cart">
 		<div class="goods-item goods-item-extra">
 
 			<div class="p-img">
 				<a target="_blank" href="/item/${cart.id}.html">
-					<img src="${cart.image[0]}" alt="">
+					<img src="${cart.image}" alt="">
 				</a>
 			</div>
 			<div class="goods-msg">
@@ -204,7 +204,7 @@
 							groupingUsed="false" maxFractionDigits="2"
 							minFractionDigits="2" value="${cart.price / 100 }" /></strong>
 					<!--增加预售金额显示 end-->
-					<span class="ml20"> x${cart.cartItemNum} </span> 
+					<span class="ml20"> x${cart.num} </span>
 					<span class="ml20 p-inventory" skuId="11555193">有货</span>
 				</div>
 				<i class="p-icon p-icon-w"></i><span class="ftx-04">7天无理由退货</span>
