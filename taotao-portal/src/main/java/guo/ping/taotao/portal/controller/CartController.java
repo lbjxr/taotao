@@ -28,6 +28,7 @@ public class CartController {
 	public String addCartItem(@PathVariable Long itemId,
 							  @RequestParam(defaultValue = "1") Integer num,
 							  HttpServletRequest request, HttpServletResponse response){
+		System.out.println("\n=============\n" + num);
 		TaotaoResult result = cartService.addCartItem(itemId, num, request, response);
 		return "redirect:/cart/success.html";
 	}

@@ -57,7 +57,7 @@ public class CartServiceImpl implements CartService {
 				cartItem.setTitle(item.getTitle());
 				cartItem.setPrice(item.getPrice());
 				cartItem.setImage(item.getImage() == null ? "" : item.getImage().split(",")[0]);
-				cartItem.setNum(item.getNum());
+				cartItem.setNum(num);
 			}
 			//添加商品到购物车列表
 			itemList.add(cartItem);

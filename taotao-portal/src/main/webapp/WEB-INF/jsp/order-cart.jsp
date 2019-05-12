@@ -33,7 +33,7 @@
 		<c:forEach items="${cartList }" var="cart" varStatus="status">
 			<c:set var="totalPrice"  value="${ totalPrice + (cart.price * cart.num)}"/>
 			<input type="hidden" name="orderItems[${status.index}].itemId" value="${cart.id}"/>
-			<input type="hidden" name="orderItems[${status.index}].cartItemNum" value="${cart.num }"/>
+			<input type="hidden" name="orderItems[${status.index}].num" value="${cart.num }"/>
 			<input type="hidden" name="orderItems[${status.index}].price" value="${cart.price}"/>
 			<input type="hidden" name="orderItems[${status.index}].totalFee" value="${cart.price * cart.num}"/>
 			<input type="hidden" name="orderItems[${status.index}].title" value="${cart.title}"/>
